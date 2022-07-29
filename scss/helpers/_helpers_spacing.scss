@@ -1,0 +1,158 @@
+/*Dividers, margins and padding helpers*/
+$spacing-values: 10 15 20 25 30 35 40 45 50 55 60 65 70 80 90 95 120 130 140 150 160 255;
+/* margins */
+/*top&bottom equal margins - dividers*/
+@each $value in $spacing-values {
+  .my-#{$value} {
+    margin-top: #{$value}px;
+    margin-bottom: #{$value}px;
+  }
+}
+
+/*left&right equal margins*/
+@each $value in $spacing-values {
+  .mx-#{$value} {
+    margin-left: #{$value}px;
+    margin-right: #{$value}px;
+  }
+}
+
+/*top margins*/
+@each $value in $spacing-values {
+  .mt-#{$value} {
+    margin-top: #{$value}px;
+  }
+}
+
+/*bottom margins*/
+@each $value in $spacing-values {
+  .mb-#{$value} {
+    margin-bottom: #{$value}px;
+  }
+}
+
+/*top right bottom left margins*/
+@each $value in $spacing-values {
+  .m-#{$value} {
+    margin: #{$value}px;
+  }
+}
+
+/* paddings */
+/*top&bottom equal paddings - dividers*/
+@each $value in $spacing-values {
+  .py-#{$value} {
+    padding-top: #{$value}px;
+    padding-bottom: #{$value}px;
+  }
+}
+
+/*left&right equal paddings*/
+@each $value in $spacing-values {
+  .px-#{$value} {
+    padding-left: #{$value}px;
+    padding-right: #{$value}px;
+  }
+}
+
+/*top paddings*/
+@each $value in $spacing-values {
+  .pt-#{$value} {
+    padding-top: #{$value}px;
+  }
+}
+
+/*bottom paddings*/
+@each $value in $spacing-values {
+  .pb-#{$value} {
+    padding-bottom: #{$value}px;
+  }
+}
+
+/*top right bottom left paddings*/
+@each $value in $spacing-values {
+  .p-#{$value} {
+    padding: #{$value}px;
+  }
+}
+
+/*top right bottom left paddings*/
+@each $value in $spacing-values {
+  .p-xxl-#{$value} {
+    @media (min-width: 1440px) {
+      padding: #{$value}px!important;
+    }
+  }
+  .px-xxl-#{$value} {
+    @media (min-width: 1440px) {
+      padding-left: #{$value}px!important;
+      padding-right: #{$value}px!important;
+    }
+  }
+  .py-xxl-#{$value} {
+    @media (min-width: 1440px) {
+      padding-top: #{$value}px!important;
+      padding-bottom: #{$value}px!important;
+    }
+  }
+  .pb-xxl-#{$value} {
+    @media (min-width: 1440px) {
+      padding-bottom: #{$value}px!important;
+    }
+  }
+  .pt-xxl-#{$value} {
+    @media (min-width: 1440px) {
+      padding-top: #{$value}px!important;
+    }
+  }
+}
+
+/*top right bottom left paddings*/
+@each $value in $spacing-values {
+  .p-xl-#{$value} {
+    @media (min-width: 1200px) {
+      padding: #{$value}px!important;
+    }
+  }
+  .px-xl-#{$value} {
+    @media (min-width: 1200px) {
+      padding-left: #{$value}px!important;
+      padding-right: #{$value}px!important;
+    }
+  }
+  .py-xl-#{$value} {
+    @media (min-width: 1200px) {
+      padding-top: #{$value}px!important;
+      padding-bottom: #{$value}px!important;
+    }
+  }
+  .pb-xl-#{$value} {
+    @media (min-width: 1200px) {
+      padding-bottom: #{$value}px!important;
+    }
+  }
+  .pt-xl-#{$value} {
+    @media (min-width: 1200px) {
+      padding-top: #{$value}px!important;
+    }
+  }
+}
+@each $value in $spacing-values {
+  .p-lg-#{$value} {
+    @media (min-width: 992px) {
+      padding: #{$value}px!important;
+    }
+  }
+  .px-xl-#{$value} {
+    @media (min-width: 992px) {
+      padding-left: #{$value}px!important;
+      padding-right: #{$value}px!important;
+    }
+  }
+  .py-xl-#{$value} {
+    @media (min-width: 992px) {
+      padding-top: #{$value}px!important;
+      padding-bottom: #{$value}px!important;
+    }
+  }
+}

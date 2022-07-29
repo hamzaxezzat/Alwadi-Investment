@@ -1,0 +1,26 @@
+/* widget_flickr */
+.widget_flickr {
+   ul {
+	  margin: -5px;
+	  padding: 0;
+	  width: 100%;
+   }
+   li {
+	  display: inline-block;
+	  padding: 0;
+	  width: 100%;
+   }
+   img {
+	  width: 100%;
+	  border-radius: 1px;
+   }
+   a {
+	  opacity: 1;
+	  max-width: 50%;
+	  padding: 5px;
+	  display: inline-block;
+	  &:hover {
+		 opacity: 0.6;
+	  }
+   }
+}

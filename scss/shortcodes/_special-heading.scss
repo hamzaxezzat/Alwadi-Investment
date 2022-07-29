@@ -1,0 +1,43 @@
+/*
+** Special Heading
+*/
+.special-heading {
+   word-wrap: break-word;
+   line-height: 1;
+   margin-top: 0;
+   margin-bottom: 0;
+   position: relative;
+
+   span {
+	  display: inline-block;
+   }
+
+   & + h4 {
+	  margin-top: -0.2em;
+   }
+
+   &.big-size {
+	  font-size: 110px;
+	  @media (max-width: 1199px) {
+		 font-size: 60px;
+	  }
+   }
+   .custom-header{
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	  transform: translateY(-54%);
+	  font-size: 160px;
+	  opacity: .1;
+
+	  @media (max-width: 1199px) {
+		 transform: translateY(-44%);
+		 font-size: 120px;
+	  }
+
+	  @media (max-width: 991px) {
+		 display: none;
+	  }
+   }
+}
+

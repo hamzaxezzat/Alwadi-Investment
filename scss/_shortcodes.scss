@@ -1,0 +1,14 @@
+/*
+** Shortcodes
+*/
+@import 'shortcodes/icon-box';
+@import 'shortcodes/special-heading';
+@import 'shortcodes/number-card';
+@import 'shortcodes/price_table';
+@import 'shortcodes/quote-item';
+@import 'shortcodes/items-masonry';
+
+.excerpt {
+  color: $darkgreyColor;
+  font-weight: 600;
+}

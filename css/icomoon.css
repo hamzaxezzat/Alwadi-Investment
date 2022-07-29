@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon/icomoon.eot?s0ye2g');
+    src: url('../fonts/icomoon/icomoon.eot?s0ye2g#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.ttf?s0ye2g') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?s0ye2g') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?s0ye2g#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="ico-"], [class*=" ico-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    display: inline-flex;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-arrow-long-2:before {
+    content: "\e926";
+}
+
+.ico-arrow-small-left:before {
+    content: "\e920";
+}
+
+.ico-play-2:before {
+    content: "\e918";
+}
+
+.ico-flame-big:before {
+    content: "\e90b";
+}
+
+.ico-sun-big:before {
+    content: "\e91e";
+}
+
+.ico-wind-big:before {
+    content: "\e922";
+}
+
+.ico-water-big:before {
+    content: "\e927";
+}
+
+.ico-calendar:before {
+    content: "\e907";
+}
+
+.ico-arrow-small:before {
+    content: "\e901";
+}
+
+.ico-arrow-long:before {
+    content: "\e921";
+}
+
+.ico-tick:before {
+    content: "\e923";
+}
+
+.ico-mouse:before {
+    content: "\e924";
+}
+
+.ico-search:before {
+    content: "\e925";
+}
+
+.ico-reply:before {
+    content: "\e900";
+}
+
+.ico-close:before {
+    content: "\e902";
+}
+
+.ico-basket:before {
+    content: "\e903";
+}
+
+.ico-list:before {
+    content: "\e904";
+}
+
+.ico-tile:before {
+    content: "\e905";
+}
+
+.ico-chevron-down:before {
+    content: "\e906";
+}
+
+.ico-home-big:before {
+    content: "\e908";
+}
+
+.ico-email-big:before {
+    content: "\e909";
+}
+
+.ico-phone-big:before {
+    content: "\e90a";
+}
+
+.ico-user:before {
+    content: "\e90c";
+}
+
+.ico-globe:before {
+    content: "\e90d";
+}
+
+.ico-pin:before {
+    content: "\e90e";
+}
+
+.ico-send:before {
+    content: "\e90f";
+}
+
+.ico-phone:before {
+    content: "\e910";
+}
+
+.ico-clock:before {
+    content: "\e911";
+}
+
+.ico-pencil:before {
+    content: "\e912";
+}
+
+.ico-comment:before {
+    content: "\e913";
+}
+
+.ico-heart:before {
+    content: "\e914";
+}
+
+.ico-rye:before {
+    content: "\e915";
+}
+
+.ico-arrow-big:before {
+    content: "\e916";
+}
+
+.ico-chevron-right:before {
+    content: "\e917";
+}
+
+.ico-quote:before {
+    content: "\e919";
+}
+
+.ico-flame:before {
+    content: "\e91a";
+}
+
+.ico-sun:before {
+    content: "\e91b";
+}
+
+.ico-water:before {
+    content: "\e91c";
+}
+
+.ico-wind:before {
+    content: "\e91d";
+}
+
+.ico-play:before {
+    content: "\e91f";
+}

@@ -1,0 +1,24 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "html template",
+  "main": "gulpfile.js",
+  "keywords": [
+    "template",
+    "html"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-header": "^2.0.1",
+    "postcss": "^8.2.2",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-stylefmt": "^1.1.0",
+    "stylefmt": "^6.0.0",
+    "stylelint-config-suitcss": "^13.0.0"
+  }
+}

@@ -1,0 +1,492 @@
+/*
+** Header
+*/
+
+.page_header {
+   //same as .page_header_side
+   transition: $headerTransition;
+
+   position: relative;
+   top: 0;
+
+   left: 0;
+   right: 0;
+   width: 100%;
+
+   z-index: 1000;
+   margin: 0;
+   padding: 0;
+
+   //display_table fix on affix
+   height: auto;
+
+   .boxed &,
+   &.affix {
+	  position: fixed !important;
+	  z-index: 1001;
+	  box-shadow: 0 2px 15px 0 rgba(100, 100, 100, 0.05);
+	  opacity: 0.98;
+	  //remove bottom border for affixed header with s-borderbottom class
+	  &:after {
+		 background-color: transparent;
+	  }
+   }
+
+   //hidding top border on affixed header
+   &.affix.s-bordertop::before {
+	  display: none;
+   }
+
+   @media (max-width: 991px) {
+	  &.mobile-active {
+		 z-index: 1003;
+		 opacity: 1;
+	  }
+   }
+
+   //fix bug when refresh page at the bottom and header goes down
+   &.affix-bottom {
+	  //!important is necessary
+	  top: 0 !important;
+	  position: fixed;
+   }
+
+   //min height for mobile toggler be always on header
+   //for prevent header mobile menu toggler overlap bordered header
+   // 62 - broken design on 60px color toggler - back to 60
+   .row {
+	  min-height: 60px;
+   }
+
+
+   //fix header buttons dropdown
+   .dropdown {
+	  //white-space: nowrap;
+   }
+
+   a {
+	  display: inline-block;
+   }
+
+   .btn {
+	  margin-bottom: 0;
+
+	  @media (max-width: 1440px) {
+		 min-width: auto;
+		 padding: 13px 15px;
+	  }
+   }
+}
+
+//when refreshing page - header height is smaller because it is affixed
+//fixing
+//absolute header when using header on slider or on title (for parallax or image background)
+
+.header_absolute {
+   position: absolute;
+   width: 100%;
+   left: 0;
+
+   .page_topline,
+   .page_header,
+   .page_header_wrapper {
+	  z-index: 1002;
+	  position: absolute;
+	  right: 0;
+	  left: 0;
+   }
+
+   .page_topline{
+	  //z-index: 1003;
+   }
+
+   //&.cover-background {
+   .page_topline,
+   .page_toplogo,
+   .page_header_wrapper,
+   .page_title {
+	  background-color: transparent;
+   }
+
+   //fix for boxed layout
+   #canvas:not(.boxed) & .page_header.affix-top {
+	  background-color: transparent;
+   }
+
+   //}
+
+}
+
+.meta-dropdown {
+   .dropdown-menu {
+	  background-color: $lightColor;
+	  @media (max-width: 1199px) {
+		 padding: 20px 30px;
+		 width: 290px;
+		 .meta-item {
+			color: $darkColor;
+
+			a {
+			   color: $darkColor;
+
+			   &:hover {
+				  color: $colorMain;
+			   }
+			}
+		 }
+	  }
+   }
+
+   @media (min-width: 1200px) {
+	  .nav-btn {
+		 display: none;
+	  }
+	  .dropdown-menu {
+		 position: static;
+		 display: inline-flex;
+		 align-items: center;
+		 background-color: transparent;
+		 border: unset;
+		 box-shadow: none;
+
+		 li:not(:last-child) {
+			margin-right: 30px;
+		 }
+	  }
+   }
+}
+
+.page_topline.ds{
+   .meta-dropdown{
+	  @media (min-width: 1200px) {
+		 .meta-item{
+			color: $lightColor;
+		 }
+	  }
+   }
+}
+
+.nav-btn {
+   width: 30px;
+   height: 30px;
+   border: none;
+   padding: 0;
+   text-align: center;
+   position: relative;
+   cursor: pointer;
+   display: inline-flex;
+
+   &[id] {
+	  background: transparent;
+   }
+
+   &:hover,
+   &:focus {
+	  background: transparent !important;
+   }
+
+   span,
+   span:before,
+   span:after {
+	  width: 18px;
+	  height: 2px;
+	  margin: auto;
+	  left: 0;
+	  display: block;
+	  position: relative;
+	  content: '';
+	  background: $lightColor;
+	  transition: 0.25s all ease-in-out;
+   }
+
+   &.dark {
+	  span,
+	  span:before,
+	  span:after {
+		 background: $darkColor;
+	  }
+   }
+
+   &[aria-expanded="true"] span {
+	  background: transparent !important;
+   }
+
+   span:before {
+	  bottom: 5px;
+	  opacity: 1;
+   }
+
+   span:after {
+	  top: 3px;
+   }
+
+   &[aria-expanded="true"] span:before {
+	  top: 1px;
+	  transform: rotate(45deg);
+   }
+
+   &[aria-expanded="true"] span:after {
+	  top: -1px;
+	  transform: rotate(-45deg);
+   }
+
+   //dots
+   &.type-dots {
+	  width: 28px;
+	  height: 28px;
+
+	  span,
+	  span:before,
+	  span:after {
+		 height: 3px;
+		 width: 3px;
+		 border-radius: 50%;
+	  }
+
+	  span:before {
+		 bottom: 6px;
+	  }
+
+	  span:after {
+		 top: 3px;
+	  }
+
+	  &[aria-expanded="true"] span,
+	  &[aria-expanded="true"] span:before,
+	  &[aria-expanded="true"] span:after {
+		 width: 22px;
+		 height: 2px;
+		 border-radius: 0;
+	  }
+
+	  &[aria-expanded="true"] span:after {
+		 top: -1px;
+	  }
+   }
+
+   //only for child of containers
+   [class*='container'] > &:first-child {
+	  margin: 0 .5em;
+   }
+
+   [class*='container'] > &:last-child {
+	  margin: 0 .5em;
+   }
+}
+
+//other header sections
+.page_topline {
+   line-height: 1.4;
+
+   &.small-text i {
+	  font-size: 14px;
+   }
+
+   .icon-inline {
+	  justify-content: center;
+   }
+
+   .social-icons {
+	  display: inline-block;
+   }
+
+   //topline menu
+   .widget_nav_menu {
+	  display: inline-block;
+   }
+
+   ul {
+	  margin: 0;
+	  padding: 0;
+
+	  li {
+		 display: inline-block;
+	  }
+   }
+
+   .dropdown-menu {
+	  //margin: 23px 0 0 -25px;
+	  min-width: auto;
+	  font-size: 14px;
+
+	  i {
+		 margin-right: 5px;
+	  }
+   }
+
+   .dropdown-language {
+	  //flags
+	  a > img {
+		 max-width: 16px;
+		 position: relative;
+		 bottom: 1px;
+		 margin-right: 6px;
+	  }
+   }
+
+   &.ls,
+   &.dropdown-menu {
+	  .icon-inline {
+		 color: $fontColor;
+
+		 a:not(:hover) {
+			color: $fontColor;
+		 }
+	  }
+   }
+
+   //news owl-carousel
+   .owl-news-slider-dates {
+	  font-weight: 700;
+   }
+
+   .topline-news-item {
+	  height: 2em;
+	  line-height: 2em;
+	  overflow: hidden;
+	  white-space: nowrap;
+	  text-overflow: ellipsis;
+	  margin: 0 90px;
+
+	  .cat-links {
+		 display: inline;
+	  }
+   }
+
+   .owl-topline-news-slider{
+	  .owl-prev{
+		 left: 10px;
+		 right: auto;
+		 position: absolute;
+	  }
+
+	  .owl-next{
+		 right: 10px;
+		 position: absolute;
+	  }
+   }
+
+   .topline-news-nav-arrow {
+	  border: 1px solid $darkgreyColor;
+	  font-size: 10px;
+	  position: relative;
+	  bottom: 20px;
+	  line-height: 38px;
+	  width: 40px;
+	  transition: opacity 0.2s ease-in-out;
+
+	  &:hover {
+		 opacity: 0.5;
+	  }
+   }
+
+   .owl-nav > div {
+	  opacity: 1;
+   }
+
+}
+
+.page_toplogo {
+   @media (min-width: 992px) {
+	  .media + .media {
+		 margin-left: 60px;
+	  }
+   }
+
+   .widget_search form, .widget_product_search form,
+   .widget_search input, .widget_product_search input {
+	  max-width: none;
+   }
+
+   @media (max-width: 991px) {
+	  .media {
+		 margin: 10px;
+	  }
+   }
+}
+
+.page_topline,
+.page_toplogo,
+.page_header {
+   .container-fluid {
+	  @media(min-width: 1600px) {
+		 padding-left: 80px;
+		 padding-right: 80px;
+	  }
+   }
+}
+
+.header-theme{
+   &.page_header{
+	  .container-fluid{
+		 @media (min-width: 1600px) {
+			padding-left: 40px;
+			padding-right: 40px;
+		 }
+	  }
+   }
+}
+
+.page_header_side_theme{
+   @media (min-width: 1600px) and (max-width: 1679px) {
+	  .container-fluid{
+		 padding-left: 40px;
+		 padding-right: 40px;
+	  }
+   }
+   @media (max-width: 1679px) {
+	  .container-fluid{
+		 display: flex;
+
+		 & > *:nth-child(2){
+			margin-left: auto;
+		 }
+	  }
+   }
+   @media (min-width: 1680px) {
+	  position: fixed!important;
+	  left: 0;
+	  top: 0;
+	  bottom: 0;
+	  z-index: 999;
+
+	  .container-fluid{
+		 padding: 170px 20px 50px 20px;
+		 writing-mode: tb;
+		 display: flex;
+		 height: 100%;
+
+		 & > *{
+			flex-basis: 33%;
+			//width: 33%;
+		 }
+	  }
+
+	  .meta-item{
+		 position: relative;
+		 transform: rotate(-180deg);
+		 display: inline-block;
+	  }
+
+	  .social-icons{
+		 a{
+			margin-right: 0;
+			position: relative;
+			transform: rotate(-90deg);
+			&:not(:first-child) {
+			   margin-top: 30px!important;
+			}
+		 }
+	  }
+   }
+
+   @media (min-width: 1800px) {
+	  .container-fluid{
+		 padding: 170px 48px 50px 48px;
+	  }
+   }
+}
+
+@import 'header/header_includes';
+@import 'header/logo';
+@import 'header/search_modal';

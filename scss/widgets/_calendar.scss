@@ -1,0 +1,313 @@
+/* widget_calendar */
+.col-xl-3 {
+   @media (min-width: 1200px) {
+	  .calendar_wrap {
+
+		 thead {
+			font-size: 12px;
+
+			th {
+			   padding: 10px 4px;
+
+			   &:first-child {
+				  padding-left: 10px;
+			   }
+
+			   &:last-child {
+				  padding-right: 10px;
+			   }
+			}
+		 }
+
+		 tbody {
+			font-size: 12px;
+
+			tr:first-child td {
+			   padding-top: 20px;
+			}
+
+			tr:last-child td {
+			   padding-bottom: 20px;
+			}
+
+			td {
+			   padding: 10px 3px;
+
+			   &:first-child {
+				  padding-left: 10px;
+			   }
+
+			   &:last-child {
+				  padding-right: 10px;
+			   }
+			}
+		 }
+
+		 tfoot td a {
+			padding: 0 10px;
+		 }
+	  }
+   }
+}
+
+.calendar_wrap {
+   table td, table th {
+	  border: none;
+   }
+
+   width: 100%;
+   margin-bottom: 0;
+   -webkit-overflow-scrolling: touch;
+   -ms-overflow-style: -ms-autohiding-scrollbar;
+
+   @media (min-width: 768px) and (max-width: 992px) {
+	  & {
+		 overflow-x: auto;
+		 overflow-y: hidden;
+	  }
+   }
+}
+
+.ds {
+   .widget_calendar tbody {
+   }
+}
+
+.widget_calendar {
+
+   table {
+	  margin: 0;
+	  position: relative;
+	  text-align: center;
+   }
+
+   caption {
+	  position: relative;
+	  z-index: 2;
+	  line-height: 1;
+	  padding: 28px 80px;
+	  text-align: center;
+	  color: $lightColor;
+	  background-color: $colorMain;
+	  font-size: 24px;
+	  font-weight: 700;
+	  caption-side: top;
+   }
+
+   thead {
+	  background-color: $darkgreyColor;
+	  color: $lightColor;
+	  border-left: 1px solid $darkBlueColor;
+	  border-right: 1px solid $darkBlueColor;
+	  font-size: 14px;
+	  font-weight: 600;
+	  letter-spacing: .2em;
+
+	  th {
+		 padding-top: 15px;
+		 padding-bottom: 15px;
+
+		 &:first-child {
+			padding-left: 20px;
+		 }
+
+		 &:last-child {
+			padding-right: 20px;
+		 }
+
+		 text-align: center;
+		 width: 100px;
+	  }
+   }
+
+   tbody {
+	  background-color: $greyColor;
+	  font-size: 14px;
+	  letter-spacing: .2em;
+	  color: $darkColor;
+	  font-weight: 500;
+
+	  tr {
+		 &:first-child {
+			td {
+			   padding-top: 40px;
+			}
+		 }
+
+		 &:last-child {
+			td {
+			   padding-bottom: 40px;
+			}
+		 }
+	  }
+
+	  td {
+		 padding: 15px 4px;
+		 position: relative;
+
+		 &:first-child {
+			padding-left: 20px;
+		 }
+
+		 &:last-child {
+			padding-right: 20px;
+		 }
+
+		 a {
+			position: relative;
+			z-index: 1;
+
+			&::before {
+			   content: '';
+			   position: absolute;
+			   top: 50%;
+			   left: 50%;
+			   transform: translate(-50%, -50%);
+			   border-radius: 50%;
+			   border: 1px solid rgba($darkColor, .1);
+			   z-index: -1;
+			   display: inline-block;
+			   width: 50px;
+			   height: 50px;
+			   margin-left: -2px;
+			}
+		 }
+	  }
+   }
+
+   th {
+	  color: inherit;
+   }
+
+   .calendar_wrap {
+	  position: relative;
+   }
+
+   nav {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	  height: 80px;
+	  display: flex;
+
+	  span:first-child,
+	  span:last-child {
+		 width: 80px;
+		 height: 80px;
+		 display: flex;
+		 align-items: center;
+		 justify-content: center;
+		 position: absolute;
+		 z-index: 3;
+
+		 a {
+			font-size: 0;
+		 }
+	  }
+
+	  span:first-child {
+		 left: 0;
+		 top: 0;
+
+		 a {
+			&:before {
+			   content: '\f053';
+			   color: $darkColor;
+			   font-family: "FontAwesome", sans-serif;
+			   font-size: 10px;
+			   transition: all .3s ease-in-out;
+			}
+
+			&:hover {
+			   &::before {
+				  color: $darkColor;
+			   }
+			}
+		 }
+	  }
+
+	  span:last-child {
+		 right: 0;
+		 top: 0;
+
+		 a {
+			&:before {
+			   content: '\f054';
+			   color: $darkColor;
+			   font-family: "FontAwesome", sans-serif;
+			   font-size: 10px;
+			   transition: all .3s ease-in-out;
+			}
+
+			&:hover {
+			   &::before {
+				  color: $darkColor;
+			   }
+			}
+		 }
+	  }
+   }
+
+   tfoot {
+	  td {
+		 position: absolute;
+		 top: 0;
+		 z-index: 2;
+
+		 a {
+
+			text-align: center;
+			height: 80px;
+			line-height: 80px;
+			display: inline-block;
+			padding: 0 25px;
+			font-size: 0;
+			color: transparent;
+
+			&::before,
+			&::after{
+			   color: $darkColor;
+			   font-size: 9px;
+			   font-family: 'icomoon';
+			   transition: all .3s ease-in-out;
+			}
+
+			&:hover::before {
+			   opacity: .6;
+			}
+		 }
+
+		 &.pad {
+			display: none;
+		 }
+	  }
+
+	  //prev
+	  td:first-child {
+		 left: 0;
+		 padding: 0;
+
+		 a {
+			&:before {
+			   content: "\e921";
+			}
+		 }
+	  }
+
+	  //next
+	  td:last-child {
+		 right: 0;
+		 padding: 0;
+
+		 a {
+			position: relative;
+			transform: rotate(180deg);
+
+			&:after {
+			   content: "\e921";
+			}
+		 }
+	  }
+   }
+}

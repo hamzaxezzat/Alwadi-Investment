@@ -1,0 +1,129 @@
+/*
+widget_search,
+widget_mailchimp
+widget_product_search
+*/
+
+.widget_search,
+.widget_product_search,
+.widget_mailchimp {
+   form {
+	  position: relative;
+	  margin: auto;
+   }
+
+   label {
+	  margin: 0;
+	  padding: 0;
+	  display: inline;
+   }
+
+   input {
+	  width: 100%;
+	  height: 50px;
+	  font-style: normal;
+	  padding-right: 35px;
+
+	  &:focus {
+		 background-color: transparent;
+		 border-color: $fontColor;
+	  }
+   }
+}
+
+.widget_mailchimp {
+   position: relative;
+}
+
+.widget_mailchimp .mailchimp-1 {
+   input {
+	  height: 50px;
+   }
+}
+
+//buttons and icons inside a form to the right
+.widget_search button,
+.widget_mailchimp button:not(.btn),
+   //input instead of button is used in woo html
+.widget_product_search form input[type="submit"],
+.widget_product_search form:before {
+   text-align: center;
+   width: 40px;
+   line-height: 50px;
+   padding: 0 !important;
+   position: absolute;
+   right: 0;
+   top: 0;
+   border: none;
+   background-color: transparent;
+   opacity: 1;
+}
+
+.widget_search button,
+.widget_mailchimp button:not(.btn),
+   //input instead of button is used in woo html
+.widget_product_search form input[type="submit"] {
+   padding: 21px 21px 18px 10px;
+
+   &:hover {
+	  opacity: 0.5;
+   }
+}
+
+.widget_product_search form > div {
+   position: relative;
+}
+
+//icons for buttons
+.widget_search button,
+.widget_mailchimp button:not(.btn),
+   //input instead of button is used in woo html,
+.widget_product_search form button {
+   position: absolute;
+   display: block !important;
+   border: none!important;
+   font-size: 0;
+   padding: 0!important;
+   right: 0;
+   top: 0;
+   width: 40px;
+
+   &:before {
+	  content: "\e925";
+	  font-family: 'icomoon';
+	  height: 50px;
+	  line-height: 50px;
+	  color: $darkColor;
+	  font-size: 14px;
+   }
+
+   &:hover {
+	  opacity: .5;
+	  background-color: transparent!important;
+   }
+}
+
+.ds {
+   .widget_search button,
+   .widget_mailchimp button:not(.btn),
+   .widget_product_search form button {
+	  &:before {
+		 color: $lightColor;
+	  }
+   }
+}
+
+.widget_mailchimp button:not(.btn):before {
+   content: "\e912";
+}
+
+.widget_product_search {
+   form:before {
+	  line-height: 50px;
+   }
+
+   input[type="submit"] {
+	  color: transparent;
+	  font-size: 0;
+   }
+}

@@ -1,0 +1,51 @@
+/*
+** 404
+*/
+
+.page_404 {
+   background-image: url("../images/404.jpg");
+   background-size: cover;
+   min-height: calc(100vh - 240px);
+}
+
+.error-404 {
+   .page-header {
+	  h3 {
+		 font-size: 240px;
+		 line-height: 0.8;
+		 margin-bottom: 0;
+		 font-weight: 800;
+	  }
+   }
+
+   .page-content {
+	  h4{
+		 font-size: 70px;
+	  }
+	  p{
+		 color: $lightColor;
+	  }
+   }
+
+   @media (max-width: 1199px) {
+	  .page-header {
+		 h3 {
+			font-size: 200px;
+			text-align: center;
+		 }
+
+	  }
+	  .page-content {
+		 h4{
+			font-size: 50px;
+		 }
+	  }
+   }
+   @media (max-width: 767px) {
+	  .page-header {
+		 h3 {
+			font-size: 120px;
+		 }
+	  }
+   }
+}

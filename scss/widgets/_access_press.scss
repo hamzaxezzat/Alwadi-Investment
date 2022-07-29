@@ -1,0 +1,205 @@
+/* access_press */
+// http://demo.accesspressthemes.com/wordpress-plugins/accesspress-social-counter/
+.apsc-facebook-icon {
+  background-color: #3b5998;
+}
+
+.apsc-twitter-icon {
+  background-color: #1dcaff;
+}
+
+.apsc-youtube-icon {
+  background-color: #e52d27;
+}
+
+.apsc-soundcloud-icon {
+  background-color: #ff8800;
+}
+
+.apsc-dribble-icon {
+  background-color: #ea4c89;
+}
+
+.apsc-comment-icon {
+  background-color: #464646;
+}
+
+.apsc-edit-icon {
+  background-color: #837d7d;
+}
+
+.apsc-google-plus-icon {
+  background-color: #dd4b39;
+}
+
+.apsc-instagram-icon {
+  background-color: #3f729b;
+}
+
+.apsc-each-profile a {
+  color: white !important;
+}
+
+.apsc-each-profile a:hover {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.apsc-theme-4 {
+
+  .apsc-facebook-icon {
+    background-color: $lightColor;
+    i {
+      background-color: #3b5998;
+    }
+  }
+
+  .apsc-twitter-icon {
+    background-color: $lightColor;
+    i {
+      background-color: #1dcaff;
+    }
+  }
+
+  .apsc-youtube-icon {
+    background-color: $lightColor;
+    i {
+      background-color: #e52d27;
+    }
+  }
+
+  .apsc-soundcloud-icon {
+    background-color: $lightColor;
+    i {
+      background-color: #ff8800;
+    }
+  }
+
+  .apsc-dribble-icon {
+    background-color: $lightColor;
+    i {
+      background-color: #ea4c89;
+    }
+  }
+
+  .apsc-comment-icon {
+    background-color: $lightColor;
+    i {
+      background-color: #464646;
+    }
+  }
+
+  .apsc-edit-icon {
+    background-color: $lightColor;
+    i {
+      background-color: #837d7d;
+    }
+  }
+
+  .apsc-google-plus-icon {
+    background-color: $lightColor;
+    i {
+      background-color: #dd4b39;
+    }
+  }
+
+  .apsc-instagram-icon {
+    background-color: $lightColor;
+    i {
+      background-color: #3f729b;
+    }
+  }
+
+  .apsc-each-profile {
+    margin-bottom: 10px;
+  }
+
+  .apsc-inner-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .social-icon {
+    display: inline-block;
+    margin-right: auto;
+    padding: 4px 0;
+
+    transition: all 0.5s ease-in-out;
+  }
+
+  .apsc-each-profile a {
+    display: block;
+    position: relative;
+    padding: 14px 29px 14px 88px;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: $darkgreyColor!important;
+    background-color: $greyColor;
+    .media-name{
+      color: $darkgreyColor!important;
+      font-weight: 300;
+    }
+    i{
+      color: $lightColor!important;
+    }
+    &:hover {
+      opacity: 0.8;
+    }
+    @media (max-width: 768px){
+      padding: 11px 15px 11px 70px;
+    }
+  }
+
+  //icon
+  .apsc-each-profile a .fa,
+  .apsc-each-profile a .fab,
+  .apsc-each-profile a .fas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+    font-size: 16px;
+    transform: none;
+    transition: all 0.5s ease-in-out;
+  }
+
+
+  .apsc-count {
+    border-radius: 0;
+    color: $darkFontColor;
+    display: inline-block;
+    font-size: inherit;
+    text-align: center;
+    position: relative;
+    padding: 4px 4px;
+    transition: all 0.5s ease-in-out;
+    font-weight: 300;
+
+  }
+
+  .apsc-media-type {
+    display: inline-block;
+    padding: 4px 0;
+    font-weight: 300;
+    color: $darkFontColor;
+  }
+}
+
+@media screen and (max-width: 479px) {
+
+  .apsc-theme-4 .apsc-each-profile a,
+  .apsc-theme-3 .apsc-each-profile a {
+    display: inline-block;
+  }
+
+  .apsc-theme-4 .apsc-each-profile,
+  .apsc-theme-3 .apsc-each-profile {
+    float: none;
+  }
+}
