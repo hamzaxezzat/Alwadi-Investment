@@ -22906,7 +22906,7 @@ h4.entry-title{
 	top: 0;
 	right: 0;
 	bottom: 0;
-	border: 5px solid #46a7dd;
+	/* border: 5px solid #46a7dd; */
 	z-index: 0;
 }
 
