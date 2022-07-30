@@ -9464,7 +9464,7 @@ body.boxed {
 }
 
 .btn-maincolor {
-    background-color: #27d2a3;
+    background-color: #82c93e;
 }
 
 .btn-maincolor2 {
@@ -15911,7 +15911,7 @@ widget_recent_entries
     font-weight: 600;
     text-transform: uppercase;
     position: relative;
-    color: #28303e;
+    /* color: #28303e; */
 }
 
 .page_footer .side_menu.widget_nav_menu li a::before {
@@ -21337,7 +21337,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_slider.line-gradient::after {
-    content: "";
+    /* content: ""; */
     background: linear-gradient(90deg, #ffffff 1px, transparent 1px) 1px 0,
         transparent;
     background-size: 25% 1px;
