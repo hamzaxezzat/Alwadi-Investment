@@ -169,64 +169,57 @@
 
 			<!-- template sections -->
 
-
 			<!--topline section visible only on small screens|-->
-			<section class="page_topline ls ms c-my-10">
+			<section class="page_topline ls s-borderbottom c-my-10 d-lg-none">
 				<div class="container-fluid">
 					<div class="row align-items-center">
-						<div class="col-12 d-flex">
-							<div class="me-auto me-4">
-								<span class="social-icons">
+						<div class="col-8 text-start">
+							<span class="social-icons">
 
-									<span class="color-dark small-text me-4">
-										Follow us:
-									</span>
+								<a href="#" class="fa fa-facebook " title="facebook"></a>
+								<a href="#" class="fa fa-twitter " title="twitter"></a>
+								<a href="#" class="fa fa-instagram " title="google"></a>
 
-									<a href="#" class="fa fa-facebook @@iconClass" title="facebook"></a>
-									<a href="#" class="fa fa-twitter @@iconClass" title="twitter"></a>
-									<a href="#" class="fa fa-instagram @@iconClass" title="google"></a>
+							</span>
+						</div>
+						<div class="col-4 text-end">
+							<!--modal search-->
+							<span>
+								<a href="#search_modal" class="search_modal_button" data-bs-toggle="modal" data-bs-target="#search_modal">
+									<i class="fa fa-search"></i>
+								</a>
+							</span>
 
-								</span>
-							</div>
-							<div>
-								<div id="topline_dropdown" class="dropdown meta-dropdown">
-									<span id="toplineDropdown" class="nav-btn type-dots dark" data-bs-toggle="dropdown" aria-expanded="false" role="button">
-										<span></span>
-									</span>
-									<ul class="dropdown-menu dropdown-menu-md site-meta" aria-labelledby="toplineDropdown">
-										<li class="icon-inline">
-											<span class="meta-item"><i class="ico-clock"></i>Mon-Sat 8:00 - 18:00</span>
-										</li>
-										<li class="icon-inline">
-											<span class="meta-item"><i class="ico-phone"></i><a href="tel:+08001234567">0800 123 4567</a></span>
-										</li>
-										<li class="icon-inline">
-											<span class="meta-item"><i class="ico-send"></i><a href="mailto:ecotrand@example.com">eco@example.com</a></span>
-										</li>
-										<li class="icon-inline">
-											<span class="meta-item"><i class="ico-pin"></i>7 Oakmound Drive, Chicago, IL 60606</span>
-										</li>
-									</ul>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-
 			<!--eof topline-->
 
-			<!-- header with three Bootstrap columns - left for logo, center for navigation and right for includes-->
-			<header class="page_header ls justify-nav-center">
+			<!-- header with logo in center of navigation (centered with scripts) - three Bootstrap columns - left includes, navigation and right includes-->
+			<header class="page_header header_logo_center ls">
 				<div class="container-fluid">
 					<div class="row align-items-center">
-						<div class="col-xl-2 col-lg-3 col-11">
-							<a href="./" class="logo">
-								<img src="images/logo.png" alt="img">
-							</a>
+						<div class="col-xl-1 d-none d-xl-block">
+							<ul class="top-includes">
+								<li>
+									<span class="social-icons">
 
+										<a href="#" class="fa fa-facebook " title="facebook"></a>
+										<a href="#" class="fa fa-twitter " title="twitter"></a>
+										<a href="#" class="fa fa-instagram " title="google"></a>
+
+									</span>
+								</li>
+							</ul>
 						</div>
-						<div class="col-xl-8 col-1 text-sm-center">
+						<div class="col-xl-10 col-12 text-sm-center text-start position-relative">
+							<div class="logo_wrapper">
+								<a href="./" class="logo">
+									<img src="images/logo.png" alt="img">
+								</a>
+
+							</div>
 							<!-- main nav start -->
 							<nav class="top-nav">
 								<ul class="nav sf-menu">
@@ -753,531 +746,53 @@
 							</nav>
 							<!-- eof main nav -->
 						</div>
-						<div class="col-xl-2 col-lg-7 text-end d-none d-lg-block">
-
+						<div class="col-xl-1 text-end d-none d-xl-block">
 							<ul class="top-includes">
-
-
 								<li>
+									<!--modal search-->
 									<span>
-										<a href="contact.html" class="btn btn-maincolor">Request a quote</a>
+										<a href="#search_modal" class="search_modal_button" data-bs-toggle="modal" data-bs-target="#search_modal">
+											<i class="fa fa-search"></i>
+										</a>
 									</span>
+
 								</li>
-
-
 							</ul>
-
 						</div>
+
+
 					</div>
 				</div>
 				<!-- header toggler -->
 				<span class="toggle_menu"><span></span></span>
 			</header>
 
-			<section class="page_title ds s-overlay s-py-90 s-py-xl-150">
+
+			<section class="ds s-py-150 error-404 not-found page_404 s-overlay mobile-overlay">
 				<div class="container">
 					<div class="row">
 
-						<div class="col-md-12 text-center">
-							<h1 class="emptytext">Events without Sidebar</h1>
-							<ol class="breadcrumb">
-								<li class="breadcrumb-item">
-									<a href="./">Home</a>
-								</li>
-								<li class="breadcrumb-item">
-									<a href="#">Pages</a>
-								</li>
-								<li class="breadcrumb-item active">
-									Events without Sidebar
-								</li>
-							</ol>
-						</div>
 
-					</div>
-				</div>
-			</section>
+						<div class="col-sm-12 text-center">
 
-			<section class="ls s-py-90 s-py-xl-150">
-				<div class="container">
-					<div class="row c-gutter-60">
+							<header class="page-header">
+								<h3><span class="emptytext">4</span>0<span class="emptytext">4</span></h3>
+							</header>
+							<!-- .page-header -->
 
-						<main class="offset-lg-1 col-lg-10">
-							<article class="post side-item content-padding">
-								<div class="row">
-									<div class="col-xl-4 col-lg-5 col-md-6">
-										<div class="item-media">
-											<img src="images/events/01.jpg" alt="img">
-											<div class="media-links">
-												<a class="default-link" title="" href="event-single-full.html"></a>
-											</div>
-											<div class="custom-date-wrap">
-												<div class="custom-date">
-													<span>28</span>
-													<span>may</span>
-												</div>
-												<div class="custom-time">
-													<span>11:00</span>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="col-xl-8 col-lg-7 col-md-6 d-md-flex align-center">
-										<div class="item-content">
-											<div class="divider-40 divider-md-0"></div>
-											<h5 class="mt-0">
-												<a href="event-single-full.html">Vivamus suscipit tortor eget</a>
-											</h5>
-
-											<p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget
-												tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non
-												nulla sit amet nisl tempus convallis quis ac lectus.</p>
-
-											<div class="entry-meta-blog mt-30">
-												<span>
-													<i class="ico-pin"></i> <span>US, New York, NY, Conference Hall</span>
-												</span>
-											</div>
-											<p class="mt-40">
-												<a href="event-single-full.html" class="btn btn-outline-dark">Visit event</a>
-											</p>
-
-										</div>
-									</div>
-								</div>
-							</article>
-
-							<article class="post side-item content-padding">
-								<div class="row">
-									<div class="col-xl-4 col-lg-5 col-md-6">
-										<div class="item-media">
-											<img src="images/events/04.jpg" alt="img">
-											<div class="media-links">
-												<a class="default-link" title="" href="event-single-full.html"></a>
-											</div>
-											<div class="custom-date-wrap">
-												<div class="custom-date">
-													<span>15</span>
-													<span>may</span>
-												</div>
-												<div class="custom-time">
-													<span>13:30</span>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="col-xl-8 col-lg-7 col-md-6 d-md-flex align-center">
-										<div class="item-content">
-											<div class="divider-40 divider-md-0"></div>
-											<h5 class="mt-0">
-												<a href="event-single-full.html">Nulla porttitor accumsan tincidunt</a>
-											</h5>
-
-											<p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id
-												imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Lorem
-												ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-											<div class="entry-meta-blog mt-30">
-												<span>
-													<i class="ico-pin"></i> <span>US, New York, NY, Conference Hall</span>
-												</span>
-											</div>
-											<p class="mt-40">
-												<a href="event-single-full.html" class="btn btn-outline-dark">Visit event</a>
-											</p>
-
-										</div>
-									</div>
-								</div>
-							</article>
-
-							<article class="post side-item content-padding">
-								<div class="row">
-									<div class="col-xl-4 col-lg-5 col-md-6">
-										<div class="item-media">
-											<img src="images/events/07.jpg" alt="img">
-											<div class="media-links">
-												<a class="default-link" title="" href="event-single-full.html"></a>
-											</div>
-											<div class="custom-date-wrap">
-												<div class="custom-date">
-													<span>07</span>
-													<span>may</span>
-												</div>
-												<div class="custom-time">
-													<span>15:45</span>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="col-xl-8 col-lg-7 col-md-6 d-md-flex align-center">
-										<div class="item-content">
-											<div class="divider-40 divider-md-0"></div>
-											<h5 class="mt-0">
-												<a href="event-single-full.html">Curabitur non nulla sit amet</a>
-											</h5>
-
-											<p>Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque in ipsum id
-												orci porta dapibus. Donec sollicitudin molestie malesuada. Proin eget tortor risus. Proin eget
-												tortor risus.</p>
-
-											<div class="entry-meta-blog mt-30">
-												<span>
-													<i class="ico-pin"></i> <span>US, New York, NY, Conference Hall</span>
-												</span>
-											</div>
-											<p class="mt-40">
-												<a href="event-single-full.html" class="btn btn-outline-dark">Visit event</a>
-											</p>
-
-										</div>
-									</div>
-								</div>
-							</article>
-
-							<article class="post side-item content-padding">
-								<div class="row">
-									<div class="col-xl-4 col-lg-5 col-md-6">
-										<div class="item-media">
-											<img src="images/events/06.jpg" alt="img">
-											<div class="media-links">
-												<a class="default-link" title="" href="event-single-full.html"></a>
-											</div>
-											<div class="custom-date-wrap">
-												<div class="custom-date">
-													<span>31</span>
-													<span>apr</span>
-												</div>
-												<div class="custom-time">
-													<span>11:00</span>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="col-xl-8 col-lg-7 col-md-6 d-md-flex align-center">
-										<div class="item-content">
-											<div class="divider-40 divider-md-0"></div>
-											<h5 class="mt-0">
-												<a href="event-single-full.html">Vivamus suscipit tortor eget</a>
-											</h5>
-
-											<p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget
-												tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non
-												nulla sit amet nisl tempus convallis quis ac lectus</p>
-
-											<div class="entry-meta-blog mt-30">
-												<span>
-													<i class="ico-pin"></i> <span>US, New York, NY, Conference Hall</span>
-												</span>
-											</div>
-											<p class="mt-40">
-												<a href="event-single-full.html" class="btn btn-outline-dark">Visit event</a>
-											</p>
-
-										</div>
-									</div>
-								</div>
-							</article>
-
-							<article class="post side-item content-padding">
-								<div class="row">
-									<div class="col-xl-4 col-lg-5 col-md-6">
-										<div class="item-media">
-											<img src="images/events/08.jpg" alt="img">
-											<div class="media-links">
-												<a class="default-link" title="" href="event-single-full.html"></a>
-											</div>
-											<div class="custom-date-wrap">
-												<div class="custom-date">
-													<span>22</span>
-													<span>apr</span>
-												</div>
-												<div class="custom-time">
-													<span>13:30</span>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="col-xl-8 col-lg-7 col-md-6 d-md-flex align-center">
-										<div class="item-content">
-											<div class="divider-40 divider-md-0"></div>
-											<h5 class="mt-0">
-												<a href="event-single-full.html">Nulla porttitor accumsan tincidunt</a>
-											</h5>
-
-											<p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id
-												imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Lorem
-												ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-											<div class="entry-meta-blog mt-30">
-												<span>
-													<i class="ico-pin"></i> <span>US, New York, NY, Conference Hall</span>
-												</span>
-											</div>
-											<p class="mt-40">
-												<a href="event-single-full.html" class="btn btn-outline-dark">Visit event</a>
-											</p>
-
-										</div>
-									</div>
-								</div>
-							</article>
-
-							<article class="post side-item content-padding">
-								<div class="row">
-									<div class="col-xl-4 col-lg-5 col-md-6">
-										<div class="item-media">
-											<img src="images/events/09.jpg" alt="img">
-											<div class="media-links">
-												<a class="default-link" title="" href="event-single-full.html"></a>
-											</div>
-											<div class="custom-date-wrap">
-												<div class="custom-date">
-													<span>21</span>
-													<span>apr</span>
-												</div>
-												<div class="custom-time">
-													<span>15:45</span>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="col-xl-8 col-lg-7 col-md-6 d-md-flex align-center">
-										<div class="item-content">
-											<div class="divider-40 divider-md-0"></div>
-											<h5 class="mt-0">
-												<a href="event-single-full.html">Curabitur non nulla sit amet</a>
-											</h5>
-
-											<p>Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque in ipsum id
-												orci porta dapibus. Donec sollicitudin molestie malesuada. Proin eget tortor risus. Proin eget
-												tortor risus.</p>
-
-											<div class="entry-meta-blog mt-30">
-												<span>
-													<i class="ico-pin"></i> <span>US, New York, NY, Conference Hall</span>
-												</span>
-											</div>
-											<p class="mt-40">
-												<a href="event-single-full.html" class="btn btn-outline-dark">Visit event</a>
-											</p>
-
-										</div>
-									</div>
-								</div>
-							</article>
-
-
-							<nav class="navigation pagination" role="navigation">
-								<h2 class="screen-reader-text">Posts navigation</h2>
-								<div class="nav-links">
-									<a class="prev page-numbers" href="events-right.html">
-										<i class="ico-arrow-long"></i>
-										<span class="screen-reader-text">Previous page</span>
-									</a>
-									<a class="page-numbers" href="events-right.html">
-										<span class="meta-nav screen-reader-text">Page </span>
-										1
-									</a>
-									<span class="page-numbers current">
-										<span class="meta-nav screen-reader-text">Page </span>
-										2
-									</span>
-									<a class="page-numbers" href="events-right.html">
-										<span class="meta-nav screen-reader-text">Page </span>
-										3
-									</a>
-									<a class="next page-numbers" href="events-right.html">
-										<span class="screen-reader-text">Next page</span>
-										<i class="ico-arrow-long"></i>
-									</a>
-								</div>
-							</nav>
-
-						</main>
-					</div>
-
-				</div>
-			</section>
-
-			<section class="before-footer before-footer1">
-				<div class="container ">
-					<div class="row">
-						<div class="col-12 text-center text-xl-start">
-							<div class="cs">
-								<div class="title-custom-footer">
-									<h6 class="emptytext">24/7</h6>
-								</div>
-								<div class="before-footer-content d-xl-flex align-items-center">
-									<div class="mb-4 mb-xl-0">
-										<h4 class="special-heading mb-2">
-											<span>
-												<span class="text-white">Still have any questions?</span> Get a free consultancy!
-											</span>
-										</h4>
-										<p>You can contact us through phone: <a href="tel:+08001234567">0800 123 4567</a> or email:
-											<a href="mailto:ecotrand@support.com">ecotrand@support.com</a></p>
-									</div>
-									<div class="text-xl-end flex-grow-1">
-										<a class="btn btn-white" href="">Request a quote</a>
-									</div>
-								</div>
+							<div class="page-content">
+								<h4 class="mb-15">oops...</h4>
+								<p class="fw-600">We're sorry, but something went wrong</p>
+								<div class="divider-50"></div>
+								<p>
+									<a href="./" class="btn btn-maincolor btn-medium">Go to homepage</a>
+								</p>
 							</div>
+							<!-- .page-content -->
 						</div>
 					</div>
 				</div>
 			</section>
-
-
-			<footer class="page_footer ds ms s-py-90 s-py-xl-150 c-gutter-60 dark-gradient leaf-wrap overflow-visible">
-				<div class="leaf leaf-left animate animated" data-animation="fadeInUp" data-delay="150">
-					<img src="images/footer-leaf-1.png" alt="img">
-				</div>
-				<div class="leaf leaf-right animate animated" data-animation="fadeInUp" data-delay="150">
-					<img src="images/footer-leaf-2.png" alt="img">
-				</div>
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<div class="divider-xl-80"></div>
-						</div>
-						<div class="col-md-6 col-xl-2 animate" data-animation="fadeInUp">
-							<div class="widget widget_nav_menu">
-
-								<h3 class="widget-title">Useful links</h3>
-
-								<div class="menu-container">
-
-									<ul class="menu">
-
-										<li class="menu-item">
-											<a href="service-single.html">
-												Wind Turbines
-											</a>
-										</li>
-										<li class="menu-item">
-											<a href="service-single.html">
-												Solar Panels
-											</a>
-										</li>
-										<li class="menu-item">
-											<a href="service-single.html">
-												Hydropower Plants
-											</a>
-										</li>
-										<li class="menu-item">
-											<a href="service-single.html">
-												Fossil Resources
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="divider-60 divider-xl-0"></div>
-						</div>
-						<div class="col-md-6 col-xl-2 animate" data-animation="fadeInUp">
-							<div class="widget widget_nav_menu">
-
-								<h3 class="widget-title">Support</h3>
-
-								<div class="menu-container">
-
-									<ul class="menu">
-
-										<li class="menu-item">
-											<a href="#">
-												Terms & Conditions
-											</a>
-										</li>
-										<li class="menu-item">
-											<a href="#">
-												Shipping Policy
-											</a>
-										</li>
-										<li class="menu-item">
-											<a href="#">
-												Delivery Tips
-											</a>
-										</li>
-										<li class="menu-item">
-											<a href="#">
-												Returns
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="divider-60 divider-xl-0"></div>
-						</div>
-						<div class="col-md-6 col-xl-2 animate" data-animation="fadeInUp">
-							<div class="widget widget_nav_menu">
-
-								<h3 class="widget-title">Company</h3>
-
-								<div class="menu-container">
-
-									<ul class="menu">
-
-										<li class="menu-item">
-											<a href="about.html">
-												About us
-											</a>
-										</li>
-										<li class="menu-item">
-											<a href="gallery-tiled.html">
-												Our gallery
-											</a>
-										</li>
-										<li class="menu-item">
-											<a href="case-image.html">
-												Our cases
-											</a>
-										</li>
-										<li class="menu-item">
-											<a href="blog-grid.html">
-												News & events
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="divider-60 divider-md-0"></div>
-						</div>
-						<div class="col-md-6 col-xl-5 offset-xl-1 animate" data-animation="fadeInUp">
-							<div class="widget widget_mailchimp">
-
-								<h3 class="widget-title">Newsletter</h3>
-
-								<form class="signup" action="/">
-									<input id="mailchimp_email_footer" name="email" type="email" class="form-control mailchimp_email" placeholder="Email address">
-
-									<button type="submit" class="search-submit">
-										<span class="screen-reader-text">Subscribe</span>
-									</button>
-									<div class="response"></div>
-								</form>
-
-							</div>
-
-							<div class="divider-50"></div>
-
-							<p class="social-icons">
-
-								<a href="https://www.facebook.com/" class="fa fa-facebook border-icon rounded-icon" title="facebook"></a>
-								<a href="#" class="fa fa-twitter border-icon rounded-icon" title="twitter"></a>
-								<a href="#" class="fa fa-linkedin border-icon rounded-icon" title="linkedin"></a>
-
-							</p>
-						</div>
-					</div>
-				</div>
-			</footer>
-
 
 			<section class="page_copyright ls s-py-25">
 				<div class="container">
@@ -1288,7 +803,6 @@
 					</div>
 				</div>
 			</section>
-
 
 		</div><!-- eof #box_wrapper -->
 	</div><!-- eof #canvas -->

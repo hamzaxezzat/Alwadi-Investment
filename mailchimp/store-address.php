@@ -16,11 +16,11 @@ function storeAddress(){
 	}
 	require_once('MCAPI.class.php');
 	// grab an API Key from http://admin.mailchimp.com/account/api/
-	$api = new MCAPI('78e00251d3c3328188efbe7356713c7a-us9');
+	$api = new MCAPI('-us9');
 	
 	// grab your List's Unique Id by going to http://admin.mailchimp.com/lists/
 	// Click the "settings" link for the list - the Unique Id is at the bottom of that page. 
-	$list_id = "34499e4308";
+	$list_id = "-";
 	if($api->listSubscribe($list_id, $_GET['email'], '') === true) {
 		// It worked!	
 		return 'Success! Check your email to confirm sign up.';

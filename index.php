@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html class="no-js">
@@ -2059,6 +2060,7 @@
                 </section>
                 <!-- Content End -->
 
+                <!-- Global Footer -->
                 <!-- Free Consultancy Start -->
                 <section class="before-footer before-footer1">
                     <div class="container">

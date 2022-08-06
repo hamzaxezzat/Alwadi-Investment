@@ -169,64 +169,57 @@
 
 			<!-- template sections -->
 
-
 			<!--topline section visible only on small screens|-->
-			<section class="page_topline ls ms c-my-10">
+			<section class="page_topline ls s-borderbottom c-my-10 d-lg-none">
 				<div class="container-fluid">
 					<div class="row align-items-center">
-						<div class="col-12 d-flex">
-							<div class="me-auto me-4">
-								<span class="social-icons">
+						<div class="col-8 text-start">
+							<span class="social-icons">
 
-									<span class="color-dark small-text me-4">
-										Follow us:
-									</span>
+								<a href="#" class="fa fa-facebook " title="facebook"></a>
+								<a href="#" class="fa fa-twitter " title="twitter"></a>
+								<a href="#" class="fa fa-instagram " title="google"></a>
 
-									<a href="#" class="fa fa-facebook @@iconClass" title="facebook"></a>
-									<a href="#" class="fa fa-twitter @@iconClass" title="twitter"></a>
-									<a href="#" class="fa fa-instagram @@iconClass" title="google"></a>
+							</span>
+						</div>
+						<div class="col-4 text-end">
+							<!--modal search-->
+							<span>
+								<a href="#search_modal" class="search_modal_button" data-bs-toggle="modal" data-bs-target="#search_modal">
+									<i class="fa fa-search"></i>
+								</a>
+							</span>
 
-								</span>
-							</div>
-							<div>
-								<div id="topline_dropdown" class="dropdown meta-dropdown">
-									<span id="toplineDropdown" class="nav-btn type-dots dark" data-bs-toggle="dropdown" aria-expanded="false" role="button">
-										<span></span>
-									</span>
-									<ul class="dropdown-menu dropdown-menu-md site-meta" aria-labelledby="toplineDropdown">
-										<li class="icon-inline">
-											<span class="meta-item"><i class="ico-clock"></i>Mon-Sat 8:00 - 18:00</span>
-										</li>
-										<li class="icon-inline">
-											<span class="meta-item"><i class="ico-phone"></i><a href="tel:+08001234567">0800 123 4567</a></span>
-										</li>
-										<li class="icon-inline">
-											<span class="meta-item"><i class="ico-send"></i><a href="mailto:ecotrand@example.com">eco@example.com</a></span>
-										</li>
-										<li class="icon-inline">
-											<span class="meta-item"><i class="ico-pin"></i>7 Oakmound Drive, Chicago, IL 60606</span>
-										</li>
-									</ul>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-
 			<!--eof topline-->
 
-			<!-- header with three Bootstrap columns - left for logo, center for navigation and right for includes-->
-			<header class="page_header ls justify-nav-center">
+			<!-- header with logo in center of navigation (centered with scripts) - three Bootstrap columns - left includes, navigation and right includes-->
+			<header class="page_header header_logo_center ls">
 				<div class="container-fluid">
 					<div class="row align-items-center">
-						<div class="col-xl-2 col-lg-3 col-11">
-							<a href="./" class="logo">
-								<img src="images/logo.png" alt="img">
-							</a>
+						<div class="col-xl-1 d-none d-xl-block">
+							<ul class="top-includes">
+								<li>
+									<span class="social-icons">
 
+										<a href="#" class="fa fa-facebook " title="facebook"></a>
+										<a href="#" class="fa fa-twitter " title="twitter"></a>
+										<a href="#" class="fa fa-instagram " title="google"></a>
+
+									</span>
+								</li>
+							</ul>
 						</div>
-						<div class="col-xl-8 col-1 text-sm-center">
+						<div class="col-xl-10 col-12 text-sm-center text-start position-relative">
+							<div class="logo_wrapper">
+								<a href="./" class="logo">
+									<img src="images/logo.png" alt="img">
+								</a>
+
+							</div>
 							<!-- main nav start -->
 							<nav class="top-nav">
 								<ul class="nav sf-menu">
@@ -753,172 +746,63 @@
 							</nav>
 							<!-- eof main nav -->
 						</div>
-						<div class="col-xl-2 col-lg-7 text-end d-none d-lg-block">
-
+						<div class="col-xl-1 text-end d-none d-xl-block">
 							<ul class="top-includes">
-
-
 								<li>
+									<!--modal search-->
 									<span>
-										<a href="contact.html" class="btn btn-maincolor">Request a quote</a>
+										<a href="#search_modal" class="search_modal_button" data-bs-toggle="modal" data-bs-target="#search_modal">
+											<i class="fa fa-search"></i>
+										</a>
 									</span>
+
 								</li>
-
-
 							</ul>
-
 						</div>
+
+
 					</div>
 				</div>
 				<!-- header toggler -->
 				<span class="toggle_menu"><span></span></span>
 			</header>
 
-			<section class="page_title ds s-overlay s-py-90 s-py-xl-150">
+
+			<section class="ds s-py-150 error-404 not-found page_404 s-overlay mobile-overlay">
 				<div class="container">
 					<div class="row">
 
+
+						<div class="col-sm-12 text-center">
+
+							<header class="page-header">
+								<h3><span class="emptytext">4</span>0<span class="emptytext">4</span></h3>
+							</header>
+							<!-- .page-header -->
+
+							<div class="page-content">
+								<h4 class="mb-15">oops...</h4>
+								<p class="fw-600">We're sorry, but something went wrong</p>
+								<div class="divider-50"></div>
+								<p>
+									<a href="./" class="btn btn-maincolor btn-medium">Go to homepage</a>
+								</p>
+							</div>
+							<!-- .page-content -->
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page_copyright ls s-py-25">
+				<div class="container">
+					<div class="row align-items-center">
 						<div class="col-md-12 text-center">
-							<h1 class="emptytext">Footer 6</h1>
-							<ol class="breadcrumb">
-								<li class="breadcrumb-item">
-									<a href="./">Home</a>
-								</li>
-								<li class="breadcrumb-item">
-									<a href="#">Pages</a>
-								</li>
-								<li class="breadcrumb-item active">
-									Footer 6
-								</li>
-							</ol>
+							<p class="color-dark">Copyright &copy; <span class="copyright_year">2021</span> All Rights Reserved</p>
 						</div>
-
 					</div>
 				</div>
 			</section>
-
-			<section class="ls s-py-90 s-py-xl-150 s-py-50 c-gutter-60">
-				<div class="container">
-					<div class="row">
-
-						<main class="col-lg-7 col-xl-8">
-							<div class="vertical-item">
-								<div class="item-media">
-
-									<img src="images/events/24.jpg" alt="img">
-
-								</div>
-								<div class="item-content pt-5">
-									<p class="excerpt">
-										Aspernatur dicta harum odio odit perferendis quasi quis repellendus. Alias, aut corporis earum explicabo iure labore non porro quae recusandae, tempora voluptas!
-									</p>
-
-									<p>
-										Consectetur adipisicing elit. A alias architecto deserunt laborum magnam neque obcaecati qui saepe totam velit. Aliquam at cum doloremque exercitationem harum illum obcaecati pariatur porro.
-									</p>
-
-									<p>
-										Consectetur adipisicing elit. A alias architecto deserunt laborum magnam neque obcaecati qui saepe totam velit. Aliquam at cum doloremque exercitationem harum illum obcaecati pariatur porro.
-									</p>
-
-									<p>
-										Consectetur adipisicing elit. A alias architecto deserunt laborum magnam neque obcaecati qui saepe totam velit. Aliquam at cum doloremque exercitationem harum illum obcaecati pariatur porro.
-									</p>
-
-								</div>
-							</div>
-						</main>
-
-						<aside class="col-lg-5 col-xl-4">
-							<div class="widget widget_categories">
-
-								<h3 class="widget-title">Categories</h3>
-
-								<ul>
-									<li class="cat-item">
-										<a href="blog-right.html">Wind energy</a>
-										<span>(23)</span>
-									</li>
-									<li class="cat-item">
-										<a href="blog-right.html">Water energy</a>
-										<span>(18)</span>
-									</li>
-									<li class="cat-item">
-										<a href="blog-right.html">Solar energy</a>
-										<span>(18)</span>
-									</li>
-									<li class="cat-item">
-										<a href="blog-right.html">Bio energy</a>
-										<span>(15)</span>
-									</li>
-								</ul>
-							</div>
-
-
-						</aside>
-					</div>
-
-				</div>
-			</section>
-
-
-			<div id="footer"></div>
-
-			<section class="footer-wrap">
-				<footer class="page_footer ls ms s-py-90 s-py-xl-150">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12 text-center animate" data-animation="fadeInUp">
-								<img src="images/logo-footer.png" alt="img">
-								<div class="divider-40"></div>
-							</div>
-							<div class="col-md-12 text-center animate" data-animation="fadeInUp">
-								<div class="widget widget_nav_menu side_menu">
-									<ul class="menu">
-										<li>
-											<a class="active" href="index.html">Home</a>
-										</li>
-										<li>
-											<a href="events-full.html">events</a>
-										</li>
-										<li>
-											<a href="case-tiled.html">Cases</a>
-										</li>
-										<li>
-											<a href="services.html">Services</a>
-										</li>
-										<li>
-											<a href="gallery-tiled.html">Gallery</a>
-										</li>
-										<li>
-											<a href="shop-left.html">Shop</a>
-										</li>
-										<li>
-											<a href="blog-grid.html">Blog</a>
-										</li>
-										<li>
-											<a href="contact.html">Contacts</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</footer>
-				<section class="page_copyright ls s-py-25">
-					<div class="container">
-						<div class="row align-items-center">
-							<div class="col-md-12 text-center">
-								<p class="color-dark">Copyright &copy; <span class="copyright_year">2021</span> All Rights Reserved</p>
-							</div>
-						</div>
-					</div>
-				</section>
-				<h6 class="footer-title-custom">
-					<span class="emptytext color-font">ecotrand</span>
-				</h6>
-			</section>
-
 
 		</div><!-- eof #box_wrapper -->
 	</div><!-- eof #canvas -->

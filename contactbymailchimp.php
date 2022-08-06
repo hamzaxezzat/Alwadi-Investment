@@ -225,11 +225,17 @@
                                 class="col-lg-6 col-xl-7 animate"
                                 data-animation="scaleAppear"
                             >
-                                <div class="hero-bg p-30 p-xl-60">
+                                <div
+                                    class="hero-bg p-30 p-xl-60"
+                                    id="mc_embed_signup"
+                                >
                                     <form
-                                        class="contact-form c-mb-40 c-gutter-40"
+                                        class="contact-form c-mb-40 c-gutter-40 validate"
                                         method="post"
-                                        action="/"
+                                        action="https://alwadi-invest.us9.list-manage.com/subscribe/post?u=1939fed1381eff2d37c52c560&amp;id=34499e4308"
+                                        id="mc-embedded-subscribe-form"
+                                        name="mc-embedded-subscribe-form"
+                                        target="_blank"
                                     >
                                         <div class="row">
                                             <div class="col-sm-12">
@@ -253,7 +259,7 @@
                                                         aria-required="true"
                                                         size="30"
                                                         value=""
-                                                        name="name"
+                                                        name="FULLNAME"
                                                         id="name"
                                                         class="form-control"
                                                         placeholder="Name"
@@ -275,8 +281,8 @@
                                                         aria-required="true"
                                                         size="30"
                                                         value=""
-                                                        name="phone"
-                                                        id="phone"
+                                                        name="PHONE"
+                                                        id="phone mce-PHONE"
                                                         class="form-control"
                                                         placeholder="Phone"
                                                     />
@@ -300,7 +306,7 @@
                                                         aria-required="true"
                                                         size="30"
                                                         value=""
-                                                        name="email"
+                                                        name="EMAIL"
                                                         id="email"
                                                         class="form-control"
                                                         placeholder="Email"
@@ -322,7 +328,7 @@
                                                         aria-required="true"
                                                         size="30"
                                                         value=""
-                                                        name="subject"
+                                                        name="SUBJECT"
                                                         id="subject"
                                                         class="form-control"
                                                         placeholder="Subject"
@@ -343,7 +349,7 @@
                                                         aria-required="true"
                                                         rows="5"
                                                         cols="45"
-                                                        name="message"
+                                                        name="MESSAGE"
                                                         id="message"
                                                         class="form-control"
                                                         placeholder="Message"
@@ -351,7 +357,21 @@
                                                 </div>
                                             </div>
                                         </div>
-
+                                        <div
+                                            id="mce-responses"
+                                            class="clear foot"
+                                        >
+                                            <div
+                                                class="response"
+                                                id="mce-error-response"
+                                                style="display: none"
+                                            ></div>
+                                            <div
+                                                class="response"
+                                                id="mce-success-response"
+                                                style="display: none"
+                                            ></div>
+                                        </div>
                                         <div class="row">
                                             <div class="col-sm-12">
                                                 <div
@@ -359,9 +379,9 @@
                                                 >
                                                     <button
                                                         type="submit"
-                                                        id="contact_form_submit"
-                                                        name="contact_submit"
-                                                        class="btn btn-maincolor btn-block"
+                                                        id="contact_form_submit mc-embedded-subscribe"
+                                                        name="subscribe"
+                                                        class="button btn btn-maincolor btn-block"
                                                     >
                                                         Send Message
                                                     </button>
@@ -603,5 +623,26 @@
         <script src="js/vendor/circletype.min.js"></script>
         <script src="js/vendor/jquery.marquee.min.js"></script>
         <script src="js/main.js"></script>
+        <script
+            type="text/javascript"
+            src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+        ></script>
+        <script type="text/javascript">
+            (function ($) {
+                window.fnames = new Array();
+                window.ftypes = new Array();
+                fnames[7] = "FULLNAME";
+                ftypes[7] = "text";
+                fnames[1] = "PHONE";
+                ftypes[1] = "phone";
+                fnames[0] = "EMAIL";
+                ftypes[0] = "email";
+                fnames[8] = "SUBJECT";
+                ftypes[8] = "text";
+                fnames[6] = "MESSAGE";
+                ftypes[6] = "text";
+            })(jQuery);
+            var $mcj = jQuery.noConflict(true);
+        </script>
     </body>
 </html>

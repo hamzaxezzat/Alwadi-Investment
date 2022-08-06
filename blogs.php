@@ -34,24 +34,8 @@
                         <div class="me-auto me-4">
                             <span class="social-icons">
                                 <span class="color-dark small-text me-4">
-                                    Follow us:
+                                    Alwadi
                                 </span>
-
-                                <a
-                                    href="#"
-                                    class="fa fa-facebook @@iconClass"
-                                    title="facebook"
-                                ></a>
-                                <a
-                                    href="#"
-                                    class="fa fa-twitter @@iconClass"
-                                    title="twitter"
-                                ></a>
-                                <a
-                                    href="#"
-                                    class="fa fa-instagram @@iconClass"
-                                    title="google"
-                                ></a>
                             </span>
                         </div>
                         <div>
@@ -74,7 +58,7 @@
                                 >
                                     <li class="icon-inline">
                                         <span class="meta-item"
-                                            ><i class="ico-website">
+                                            ><i class="ico-search">
                                                 <a
                                                     href="http://www.alwadi-invest.com"
                                                 >
@@ -94,7 +78,7 @@
                                         <span class="meta-item"
                                             ><i class="ico-send"></i
                                             ><a
-                                                href="mailto:ecotrand@example.com"
+                                                href="mailto:info@alwadi-invest.com"
                                                 >info@alwadi-invest.com</a
                                             ></span
                                         >
@@ -174,21 +158,6 @@
                                     </ul>
                                 </nav>
                                 <!-- eof main nav -->
-                            </div>
-                            <div
-                                class="col-xl-2 col-lg-7 text-end d-none d-lg-block"
-                            >
-                                <ul class="top-includes">
-                                    <li>
-                                        <span>
-                                            <a
-                                                href="contact.html"
-                                                class="btn btn-maincolor"
-                                                >Request a quote</a
-                                            >
-                                        </span>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                     </div>
@@ -795,13 +764,15 @@
                     </div>
                 </section>
 
+                <!-- Global Footer -->
+                <!-- Free Consultancy Start -->
                 <section class="before-footer before-footer1">
                     <div class="container">
                         <div class="row">
                             <div class="col-12 text-center text-xl-start">
                                 <div class="cs">
                                     <div class="title-custom-footer">
-                                        <h6 class="emptytext">24/7</h6>
+                                        <h6 class="emptytext"></h6>
                                     </div>
                                     <div
                                         class="before-footer-content d-xl-flex align-items-center"
@@ -810,10 +781,14 @@
                                             <h4 class="special-heading mb-2">
                                                 <span>
                                                     <span class="text-white"
-                                                        >Still have any
-                                                        questions?</span
-                                                    >
-                                                    Get a free consultancy!
+                                                        >Request our
+                                                        <span class="red"
+                                                            >Free</span
+                                                        >
+                                                        "Case Studies"
+                                                    </span>
+                                                    <br />Get a free
+                                                    consultancy!
                                                 </span>
                                             </h4>
                                             <p>
@@ -830,8 +805,10 @@
                                             </p>
                                         </div>
                                         <div class="text-xl-end flex-grow-1">
-                                            <a class="btn btn-white" href=""
-                                                >Request a quote</a
+                                            <a
+                                                class="btn btn-white"
+                                                href="contact.html"
+                                                >Contact Us</a
                                             >
                                         </div>
                                     </div>
@@ -840,6 +817,9 @@
                         </div>
                     </div>
                 </section>
+                <!-- Free Consultancy End -->
+
+                <!-- Footer Start -->
                 <section class="footer-wrap">
                     <footer
                         class="page_footer ls ms s-py-90 s-py-xl-150 dark-gradient"
@@ -910,38 +890,40 @@
                         <span class="emptytext color-font">Alwadi</span>
                     </h6>
                 </section>
+                <!-- Footer End -->
             </div>
             <!-- eof #box_wrapper -->
         </div>
         <!-- eof #canvas -->
-
-        <script src="js/vendor/jquery-3.6.0.min.js"></script>
-        <script src="js/vendor/bootstrap.bundle.min.js"></script>
-        <script src="js/vendor/affix.js"></script>
-        <script src="js/vendor/jquery.appear.js"></script>
-        <script src="js/vendor/jquery.cookie.js"></script>
-        <script src="js/vendor/jquery.easing.1.3.js"></script>
-        <script src="js/vendor/jquery.hoverIntent.js"></script>
-        <script src="js/vendor/superfish.js"></script>
-        <script src="js/vendor/bootstrap-progressbar.min.js"></script>
-        <script src="js/vendor/jquery.countdown.min.js"></script>
-        <script src="js/vendor/jquery.countTo.js"></script>
-        <script src="js/vendor/jquery.easypiechart.min.js"></script>
-        <script src="js/vendor/jquery.scrollbar.min.js"></script>
-        <script src="js/vendor/jquery.localScroll.min.js"></script>
-        <script src="js/vendor/jquery.scrollTo.min.js"></script>
-        <script src="js/vendor/jquery.ui.totop.js"></script>
-        <script src="js/vendor/jquery.parallax-1.1.3.js"></script>
-        <script src="js/vendor/isotope.pkgd.min.js"></script>
-        <script src="js/vendor/jquery.flexslider-min.js"></script>
-        <script src="js/vendor/owl.carousel.min.js"></script>
-        <script src="js/vendor/photoswipe.js"></script>
-        <script src="js/vendor/photoswipe-ui-default.min.js"></script>
-        <script src="js/vendor/jflickrfeed.min.js"></script>
-        <script src="js/vendor/spectragram.min.js"></script>
-        <script src="twitter/jquery.tweet.js"></script>
-        <script src="js/vendor/circletype.min.js"></script>
-        <script src="js/vendor/jquery.marquee.min.js"></script>
-        <script src="js/main.js"></script>
+        <div class="scripts">
+            <script src="js/vendor/jquery-3.6.0.min.js"></script>
+            <script src="js/vendor/bootstrap.bundle.min.js"></script>
+            <script src="js/vendor/affix.js"></script>
+            <script src="js/vendor/jquery.appear.js"></script>
+            <script src="js/vendor/jquery.cookie.js"></script>
+            <script src="js/vendor/jquery.easing.1.3.js"></script>
+            <script src="js/vendor/jquery.hoverIntent.js"></script>
+            <script src="js/vendor/superfish.js"></script>
+            <script src="js/vendor/bootstrap-progressbar.min.js"></script>
+            <script src="js/vendor/jquery.countdown.min.js"></script>
+            <script src="js/vendor/jquery.countTo.js"></script>
+            <script src="js/vendor/jquery.easypiechart.min.js"></script>
+            <script src="js/vendor/jquery.scrollbar.min.js"></script>
+            <script src="js/vendor/jquery.localScroll.min.js"></script>
+            <script src="js/vendor/jquery.scrollTo.min.js"></script>
+            <script src="js/vendor/jquery.ui.totop.js"></script>
+            <script src="js/vendor/jquery.parallax-1.1.3.js"></script>
+            <script src="js/vendor/isotope.pkgd.min.js"></script>
+            <script src="js/vendor/jquery.flexslider-min.js"></script>
+            <script src="js/vendor/owl.carousel.min.js"></script>
+            <script src="js/vendor/photoswipe.js"></script>
+            <script src="js/vendor/photoswipe-ui-default.min.js"></script>
+            <script src="js/vendor/jflickrfeed.min.js"></script>
+            <script src="js/vendor/spectragram.min.js"></script>
+            <script src="twitter/jquery.tweet.js"></script>
+            <script src="js/vendor/circletype.min.js"></script>
+            <script src="js/vendor/jquery.marquee.min.js"></script>
+            <script src="js/main.js"></script>
+        </div>
     </body>
 </html>
