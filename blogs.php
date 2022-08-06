@@ -13,7 +13,7 @@
 									<a href="#">Pages</a>
 								</li>
 								<li class="breadcrumb-item active">
-									Blog Grid
+									Blog
 								</li>
 							</ol>
 						</div>

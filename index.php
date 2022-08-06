@@ -1,3 +1,4 @@
+
 <?php include 'includes/header.php' ?>
 
                 <section class="intro_section page_slider line-gradient">
@@ -243,7 +244,7 @@
                                 <div
                                     class="service-shortcode text-center ds position-relative"
                                 >
-                                    <a href="blogs.html">
+                                    <a href="blogs.php">
                                         <div class="cover-image image-back">
                                             <img
                                                 class="h-100 d-none"
@@ -279,7 +280,7 @@
                                 <div
                                     class="service-shortcode text-center ds position-relative"
                                 >
-                                    <a href="blogs.html">
+                                    <a href="blogs.php">
                                         <div class="cover-image image-back">
                                             <img
                                                 class="h-100 d-none"
@@ -315,7 +316,7 @@
                                 <div
                                     class="service-shortcode text-center ds position-relative"
                                 >
-                                    <a href="blogs.html">
+                                    <a href="blogs.php">
                                         <div class="cover-image image-back">
                                             <img
                                                 class="h-100 d-none"
@@ -351,7 +352,7 @@
                                 <div
                                     class="service-shortcode text-center ds position-relative"
                                 >
-                                    <a href="blogs.html">
+                                    <a href="blogs.php">
                                         <div class="cover-image image-back">
                                             <img
                                                 class="h-100 d-none"
@@ -446,7 +447,7 @@
                                 <div class="divider-50"></div>
                                 <a
                                     class="btn btn-outline-dark"
-                                    href="about.html"
+                                    href="about.php"
                                     >more about us</a
                                 >
                             </div>
@@ -639,8 +640,7 @@
                 <!--Steps Start-->
                 <section
                     id="steps"
-                    class="ls s-py-90 c-gutter-80 leaf-wrap overflow-visible with-leaf-2 parallax"
-                >
+                    class="ls s-py-90 c-gutter-80 leaf-wrap overflow-visible with-leaf-2 parallax">
                     <div class="leaf-theme">
                         <img
                             class="parallax-layer"
@@ -756,7 +756,7 @@
                                                         <a
                                                             class="link-anchor"
                                                             title=""
-                                                            href="services.html#service-1"
+                                                            href="services.php#service-1"
                                                         ></a>
                                                     </div>
                                                 </div>
@@ -764,7 +764,7 @@
                                             <div class="item-content">
                                                 <h6>
                                                     <a
-                                                        href="services.html#service-1"
+                                                        href="services.php#service-1"
                                                     >
                                                         Agricultural land sales
                                                         and Logistics
@@ -790,7 +790,7 @@
                                                         <a
                                                             class="link-anchor"
                                                             title=""
-                                                            href="services.html#service-2"
+                                                            href="services.php#service-2"
                                                         ></a>
                                                     </div>
                                                 </div>
@@ -798,7 +798,7 @@
                                             <div class="item-content">
                                                 <h6>
                                                     <a
-                                                        href="services.html#service-2"
+                                                        href="services.php#service-2"
                                                     >
                                                         Farms Management
                                                     </a>
@@ -823,14 +823,14 @@
                                                         <a
                                                             class="link-anchor"
                                                             title=""
-                                                            href="services.html#service-3"
+                                                            href="services.php#service-3"
                                                         ></a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="item-content">
                                                 <h6>
-                                                    <a href="services.html">
+                                                    <a href="services.php">
                                                         Invest with Alwadi
                                                     </a>
                                                 </h6>
@@ -855,7 +855,7 @@
                                                         <a
                                                             class="link-anchor"
                                                             title=""
-                                                            href="services.html#service-4"
+                                                            href="services.php#service-4"
                                                         ></a>
                                                     </div>
                                                 </div>
@@ -863,7 +863,7 @@
                                             <div class="item-content">
                                                 <h6>
                                                     <a
-                                                        href="services.html#service-4"
+                                                        href="services.php#service-4"
                                                     >
                                                         Contract Farming
                                                     </a>
@@ -888,7 +888,7 @@
                                                         <a
                                                             class="link-anchor"
                                                             title=""
-                                                            href="services.html#service-5"
+                                                            href="services.php#service-5"
                                                         ></a>
                                                     </div>
                                                 </div>
@@ -896,7 +896,7 @@
                                             <div class="item-content">
                                                 <h6>
                                                     <a
-                                                        href="services.html#service-5"
+                                                        href="services.php#service-5"
                                                     >
                                                         Consultation Services
                                                     </a>
@@ -921,7 +921,7 @@
                                                         <a
                                                             class="link-anchor"
                                                             title=""
-                                                            href="services.html#service-6"
+                                                            href="services.php#service-6"
                                                         ></a>
                                                     </div>
                                                 </div>
@@ -929,7 +929,7 @@
                                             <div class="item-content">
                                                 <h6>
                                                     <a
-                                                        href="services.html#service-6"
+                                                        href="services.php#service-6"
                                                     >
                                                         Real Estate services
                                                     </a>
@@ -947,8 +947,7 @@
 
                 <!-- Start F&Q -->
                 <section
-                    class="ls s-pt-90 s-pb-60 s-pt-xl-150 s-pb-xl-120 c-gutter-60"
-                >
+                    class="ls s-pt-90 s-pb-60 s-pt-xl-150 s-pb-xl-120 c-gutter-60">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6">
@@ -1654,148 +1653,54 @@
                                 data-animation="scaleAppear"
                             >
                                 <div class="hero-bg p-30 p-xl-60">
+                                    <h5 for="name">Contact Form</h5>
+
                                     <form
-                                        class="contact-form c-mb-40 c-gutter-40"
-                                        method="post"
-                                        action="/"
+                                        action="https://formsubmit.co/hamza2007ezzat@gmail.com"
+                                        action="https://google.com"
+                                        method="POST"
                                     >
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <h5>Contact Form</h5>
-                                            </div>
-                                        </div>
+                                        <input
+                                            type="hidden"
+                                            name="_next"
+                                            value="https://alwadi-invest.com/thanks.html"
+                                        />
 
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <div
-                                                    class="form-group has-placeholder"
-                                                >
-                                                    <label for="name"
-                                                        >Full Name
-                                                        <span class="required"
-                                                            >*</span
-                                                        ></label
-                                                    >
-                                                    <input
-                                                        type="text"
-                                                        aria-required="true"
-                                                        size="30"
-                                                        value=""
-                                                        name="name"
-                                                        id="name"
-                                                        class="form-control"
-                                                        placeholder="Name"
-                                                    />
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div
-                                                    class="form-group has-placeholder"
-                                                >
-                                                    <label for="phone"
-                                                        >Phone<span
-                                                            class="required"
-                                                            >*</span
-                                                        ></label
-                                                    >
-                                                    <input
-                                                        type="text"
-                                                        aria-required="true"
-                                                        size="30"
-                                                        value=""
-                                                        name="phone"
-                                                        id="phone"
-                                                        class="form-control"
-                                                        placeholder="Phone"
-                                                    />
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <input
+                                            type="hidden"
+                                            name="_captcha"
+                                            value="false"
+                                        />
 
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <div
-                                                    class="form-group has-placeholder"
-                                                >
-                                                    <label for="email"
-                                                        >Email address<span
-                                                            class="required"
-                                                            >*</span
-                                                        ></label
-                                                    >
-                                                    <input
-                                                        type="email"
-                                                        aria-required="true"
-                                                        size="30"
-                                                        value=""
-                                                        name="email"
-                                                        id="email"
-                                                        class="form-control"
-                                                        placeholder="Email"
-                                                    />
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div
-                                                    class="form-group has-placeholder"
-                                                >
-                                                    <label for="subject"
-                                                        >Subject<span
-                                                            class="required"
-                                                            >*</span
-                                                        ></label
-                                                    >
-                                                    <input
-                                                        type="text"
-                                                        aria-required="true"
-                                                        size="30"
-                                                        value=""
-                                                        name="subject"
-                                                        id="subject"
-                                                        class="form-control"
-                                                        placeholder="Subject"
-                                                    />
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <input
+                                            type="text"
+                                            name="name"
+                                            placeholder="Name"
+                                            required
+                                        />
 
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div
-                                                    class="form-group has-placeholder"
-                                                >
-                                                    <label for="message"
-                                                        >Message</label
-                                                    >
-                                                    <textarea
-                                                        aria-required="true"
-                                                        rows="5"
-                                                        cols="45"
-                                                        name="message"
-                                                        id="message"
-                                                        class="form-control"
-                                                        placeholder="Message"
-                                                    ></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <input
+                                            type="email"
+                                            name="email"
+                                            placeholder="Email"
+                                            required
+                                        />
+                                        <label for="message"
+                                            >Your Message</label
+                                        >
 
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div
-                                                    class="form-group has-placeholder"
-                                                >
-                                                    <button
-                                                        type="submit"
-                                                        id="contact_form_submit"
-                                                        name="contact_submit"
-                                                        class="btn btn-maincolor btn-block"
-                                                    >
-                                                        Send Message
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <textarea
+                                            name="message"
+                                            cols="20"
+                                            rows="6"
+                                            placeholder="Your message"
+                                        ></textarea>
+                                        <button
+                                            type="submit"
+                                            class="button btn btn-maincolor btn-block"
+                                        >
+                                            Send
+                                        </button>
                                     </form>
                                 </div>
                             </div>
@@ -1883,5 +1788,7 @@
                     </div>
                 </section>
                 <!-- Content End -->
+
+
 
 <?php include 'includes/footer.php' ?>

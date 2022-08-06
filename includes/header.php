@@ -183,3 +183,10 @@
                     <!-- header toggler -->
                     <span class="toggle_menu"><span></span></span>
                 </header>
+                <!-- Whatsapp Icon Start -->
+                
+                <div>
+<a href="https://wa.me/+256779081082?text=I'm%20need%20%20to%20ask%20about%20your%20services">
+<img class="whatsapp" src="images/whatsapp.svg" alt="Whatsapp-icon">
+</a>
+  </div>

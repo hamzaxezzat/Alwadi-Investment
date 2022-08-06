@@ -1,4 +1,5 @@
 
+<!-- Whatsapp Icon End-->
                 <!-- Global Footer -->
                 <!-- Free Consultancy Start -->
                 <section class="before-footer before-footer1">
