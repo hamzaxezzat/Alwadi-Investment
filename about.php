@@ -5,16 +5,16 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <h1 class="emptytext">About Us</h1>
+                                <h1 class="emptytext"> <?php echo $lang["t-about-us"]?> </h1>
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item">
-                                        <a href="./">Home</a>
+                                        <a href="./"><?php echo $lang["t-home"]?> </a>
                                     </li>
                                     <li class="breadcrumb-item">
-                                        <a href="#">Pages</a>
+                                        <a href="#"><?php echo $lang["t-pages"]?> </a>
                                     </li>
                                     <li class="breadcrumb-item active">
-                                        About Us
+                                    <?php echo $lang["t-about-us"]?> 
                                     </li>
                                 </ol>
                             </div>
@@ -59,18 +59,10 @@
                             >
                                 <div class="divider-50 divider-lg-0"></div>
                                 <h2 class="special-heading">
-                                    <span
-                                        >Alwadi for agricultural
-                                        Investment</span
-                                    >
+                                    <span><?php echo $lang["i-about-title"]?>  </span>
                                 </h2>
                                 <div class="divider-30 divider-lg-50"></div>
-                                <p>
-                                    Al Wadi Investment Support Company is a
-                                    Ugandan company with Egyptian management and
-                                    capital interested in supporting investors
-                                    in the field of agricultural production in
-                                    Uganda
+                                <p><?php echo $lang["i-about-body"]?> 
                                 </p>
                                 <div class="divider-50"></div>
                             </div>
@@ -105,11 +97,11 @@
                                                 <span
                                                     class="emptytext"
                                                     data-content="Avocad"
-                                                    >Avocad</span
+                                                    ><?php echo $lang["product-1"]?> </span
                                                 >
                                             </h3>
                                             <h5 class="mt-1">
-                                                Alwadi<span class="color-main2"
+                                            <?php echo $lang["alwadi"]?> <span class="color-main2"
                                                     >.</span
                                                 >
                                             </h5>
@@ -141,11 +133,11 @@
                                                 <span
                                                     class="emptytext"
                                                     data-content="coffee"
-                                                    >coffee</span
+                                                    ><?php echo $lang["product-2"]?> </span
                                                 >
                                             </h3>
                                             <h5 class="mt-1">
-                                                Alwadi<span class="color-main3"
+                                            <?php echo $lang["alwadi "]?> <span class="color-main3"
                                                     >.</span
                                                 >
                                             </h5>
@@ -177,11 +169,11 @@
                                                 <span
                                                     data-content="Soya"
                                                     class="emptytext"
-                                                    >Soya</span
+                                                    ><?php echo $lang["product-3"]?> </span
                                                 >
                                             </h3>
                                             <h5 class="mt-1">
-                                                Alwadi<span class="color-main4"
+                                            <?php echo $lang["alwadi"]?> <span class="color-main4"
                                                     >.</span
                                                 >
                                             </h5>
@@ -213,11 +205,11 @@
                                                 <span
                                                     data-content="Corn"
                                                     class="emptytext"
-                                                    >Corn</span
+                                                    ><?php echo $lang[" product-4"]?> </span
                                                 >
                                             </h3>
                                             <h5 class="mt-1">
-                                                Alwadi<span class="color-main"
+                                            <?php echo $lang[" alwadi"]?>  <span class="color-main"
                                                     >.</span
                                                 >
                                             </h5>
@@ -241,7 +233,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <h2 class="special-heading">
-                                    <span>About Alwadi </span>
+                                    <span><?php echo $lang["about-alwadi"]?>  </span>
                                 </h2>
                                 <div class="divider-50 divider-xl-60"></div>
                                 <div class="collapse_shortcode">
@@ -257,7 +249,7 @@
                                                     role="button"
                                                     aria-expanded="false"
                                                 >
-                                                    Mission
+                                                <?php echo $lang["t-mission"]?> 
                                                 </a>
                                             </h4>
                                         </div>
@@ -266,16 +258,8 @@
                                             id="multiCollapseExample1"
                                         >
                                             <div class="content">
-                                                Providing a safe environment for
-                                                agricultural investment in
-                                                Uganda by choosing the
-                                                appropriate fertile land and
-                                                completing all procedures in a
-                                                sound legal manner until handing
-                                                over the title to the owner and
-                                                handing over the land free of
-                                                any obstacles and providing
-                                                after-sales services
+                                            <?php echo $lang["mission-body"]?> 
+                                                
                                             </div>
                                             <ul class="list"></ul>
                                         </div>
@@ -292,7 +276,8 @@
                                                     role="button"
                                                     aria-expanded="false"
                                                 >
-                                                    vision
+                                                <?php echo $lang["t-vision"]?> 
+                                                    
                                                 </a>
                                             </h4>
                                         </div>
@@ -301,13 +286,8 @@
                                             id="multiCollapseExample2"
                                         >
                                             <div class="content">
-                                                We look forward to forming a
-                                                strong and wide network of
-                                                (governmental and popular)
-                                                relations in Uganda to enable
-                                                the investor to manage his
-                                                investment with excellent
-                                                quality and high profitability.
+                                            <?php echo $lang["vision-body"]?> 
+                                                
                                             </div>
                                             <ul class="list"></ul>
                                         </div>
@@ -324,7 +304,8 @@
                                                     role="button"
                                                     aria-expanded="false"
                                                 >
-                                                    Experience
+                                                <?php echo $lang["t-experience"]?> 
+                                                    
                                                 </a>
                                             </h4>
                                         </div>
@@ -333,18 +314,7 @@
                                             id="multiCollapseExample3"
                                         >
                                             <div class="content">
-                                                Al-Wadi Company is distinguished
-                                                by its presence on the Ugandan
-                                                land for five years and its
-                                                extensive experience in managing
-                                                agricultural investment and
-                                                supporting investors by owning 2
-                                                farms, completing purchase
-                                                procedures, handing over land
-                                                and complete titles for 3 farms
-                                                in Uganda, including a farm for
-                                                an Egyptian company with an area
-                                                of ​​5,000 acres.
+                                            <?php echo $lang["experience-body"]?> 
                                             </div>
                                             <ul class="list"></ul>
                                         </div>
@@ -371,25 +341,21 @@
                     <div class="container">
                         <div class="row">
                             <h2 class="heading">
-                                <span>Why should you<br />choose Alwadi ?</span>
+                                <span><?php echo $lang["i-steps-title-1"]?> <br /> <?php echo $lang[" i-steps-title-2"]?></span>
                             </h2>
                             <div class="divider-50 divider-xl-60"></div>
                             <div class="col-xl-4 col-lg-6">
                                 <div class="icon-box">
                                     <h5 class="mb-3 position-relative">
-                                        Great experience with the environment
+                                    <?php echo $lang["i-step-1-title"]?> 
+                                        
                                         <span class="text-special emptytext"
                                             >01</span
                                         >
                                     </h5>
                                     <p>
-                                        Great experience with the environment,
-                                        the Ugandan regions, the fertility of
-                                        the land and the intensity of rainfall
-                                        in it, as well as the purchase and
-                                        completion of procedures and the
-                                        handover of the land to several
-                                        companies
+                                    <?php echo $lang["i-step-1-body"]?> 
+                                        
                                     </p>
                                 </div>
                             </div>
@@ -399,21 +365,14 @@
                                 ></div>
                                 <div class="icon-box">
                                     <h5 class="mb-3 position-relative">
-                                        The wide network of relations
+                                    <?php echo $lang["i-step-2-title"]?> 
                                         <span class="text-special emptytext"
                                             >02</span
                                         >
                                     </h5>
                                     <p>
-                                        The wide network of relations that the
-                                        company enjoys with governmental,
-                                        political and societal agencies, which
-                                        ensures safe and fast procedures for
-                                        obtaining lands <br />
-                                        The work team has competence,
-                                        credibility and responsibility,
-                                        regardless of the value of the financial
-                                        return
+                                    <?php echo $lang["i-step-2-body"]?> 
+                                        
                                     </p>
                                 </div>
                             </div>
@@ -423,24 +382,15 @@
                                 <div class="divider-60 divider-xl-160"></div>
                                 <div class="icon-box">
                                     <h5 class="mb-3 position-relative">
-                                        extensive experience to support the
-                                        investor
+                                    <?php echo $lang["i-step-3-title"]?> 
+                                        
                                         <span class="text-special emptytext"
                                             >03</span
                                         >
                                     </h5>
                                     <p>
-                                        Al-Wadi Company has extensive experience
-                                        to support the investor in the
-                                        post-purchase process in all aspects of
-                                        agricultural investment, from forming a
-                                        trained team, communicating with
-                                        agricultural research centres and local
-                                        expertise, facilitating obtaining
-                                        agricultural process inputs from
-                                        accredited companies, and supporting the
-                                        marketing process of products internally
-                                        and externally.
+                                    <?php echo $lang["i-step-3-body"]?> 
+                                        
                                     </p>
                                 </div>
                             </div>

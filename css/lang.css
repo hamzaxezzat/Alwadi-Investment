@@ -1,0 +1,97 @@
+/* Language Changer */
+.language {
+    /* width: 100; */
+    /* height: 0; */
+    /* font-size: 14px; */
+    /* line-height: 1; */
+    /* display: inline-block; */
+    /* margin: 1em 0; */
+    /* position: relative; */
+}
+
+.language__container--left,
+.language__container--right {
+    /* padding: 5px; */
+    /* margin-top: 12px; */
+}
+
+.language__label {
+    /* margin-top: 5px; */
+    position: relative;
+    /* top: -1; */
+    /* left: 0; */
+
+    width: 25px;
+    height: 25px;
+    /* border: 1px solid #ccc; */
+    /* padding: 7px 5px 0; */
+    background-color: white;
+    background-repeat: no-repeat;
+    /* background-position: 7px 7px; */
+    /* background-size: 25px; */
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.language__container--left .language__label {
+    border-radius: 5px;
+}
+
+.language__container--right .language__label {
+    /* border-left: 0; */
+    border-radius: 5px;
+}
+
+.language__control:hover + .language__label,
+.language__control:focus + .language__label {
+    background-color: #eee;
+}
+
+.language__control:checked + .language__label {
+    background-color: #ddd;
+}
+
+.language__control:focus + .language__label,
+.language__control:checked:focus + .language__label {
+    z-index: 2;
+    outline: 2px solid #85bffd;
+    box-shadow: 0 0 8px #85bffd;
+}
+
+.language__container--ar .language__label {
+    background-image: url("../images/ar.svg");
+}
+
+.language__container--en .language__label {
+    background-image: url("../images/en.svg");
+}
+input[type="radio"] + label:before {
+    content: none;
+}
+
+/* menu skin */
+
+.langs {
+    width: 25px;
+}
+.langs img {
+    /* padding-left: 5px; */
+}
+.nones {
+    all: unset !important;
+}
+
+.rtl a {
+    letter-spacing: normal;
+}
+
+.btn {
+    letter-spacing: normal;
+}
+.page_footer .side_menu.widget_nav_menu li a {
+    letter-spacing: normal;
+}
+
+.title-custom span {
+    padding: 15px;
+}

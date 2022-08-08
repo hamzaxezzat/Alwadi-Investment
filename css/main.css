@@ -9112,7 +9112,7 @@ body.boxed {
 
 @media (min-width: 1200px) {
     .vertical-item.content-half-padding .item-content {
-        padding-right: 80px;
+        /* padding-right: 80px; */
     }
 }
 
@@ -19435,6 +19435,8 @@ a img.aligncenter {
         line-height: 1.6em;
         font-weight: 600;
         text-transform: uppercase;
+    }
+    .ltr .sf-menu a {
         letter-spacing: 0.1em;
     }
 
@@ -20420,7 +20422,7 @@ a img.aligncenter {
 }
 
 .page_header a {
-    display: inline-block;
+    display: inline;
 }
 
 .page_header .btn {
@@ -24914,4 +24916,10 @@ img.absolute_image {
         cursor: pointer;
         transform: scale(1.1);
     }
+}
+.rtl {
+    direction: rtl;
+}
+.ltr {
+    direction: ltr;
 }

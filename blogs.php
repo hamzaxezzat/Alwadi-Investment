@@ -1,19 +1,20 @@
 <?php include 'includes/header.php' ?>
+
 			<section class="page_title ds s-overlay s-py-90 s-py-xl-150">
 				<div class="container">
 					<div class="row">
 
 						<div class="col-md-12 text-center">
-							<h1 class="emptytext">Blog Grid</h1>
+							<h1 class="emptytext"><?php echo $lang["t-blogs"]?> </h1>
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item">
-									<a href="./">Home</a>
+									<a href="./"><?php echo $lang["t-home"]?> </a>
 								</li>
 								<li class="breadcrumb-item">
-									<a href="#">Pages</a>
+									<a href="#"><?php echo $lang["t-pages"]?> </a>
 								</li>
 								<li class="breadcrumb-item active">
-									Blog
+                <?php echo $lang["t-blogs"]?> 
 								</li>
 							</ol>
 						</div>
@@ -32,7 +33,7 @@
 								<div class="col-xl-4 col-md-6">
 									<article class="vertical-item content-half-padding post sticky type-post status-publish format-standard has-post-thumbnail">
 										<div class="item-media cover-img-full">
-											<img src="images/events/14.jpg" alt="img">
+											<img src="images/events/17.jpg" alt="img">
 											<div class="media-links">
 												<div class="links-wrap">
 													<a class="link-anchor" title="" href="blog-single-full.html"></a>
@@ -41,21 +42,22 @@
 											<div class="custom-date-wrap">
 												<div class="custom-date">
 													<span>28</span>
-													<span>may</span>
+													<span><?php echo $lang["may"]?> </span>
 												</div>
 											</div>
 										</div>
 										<div class="item-content">
 											<h6>
-												<a href="blog-single-full.html">
-													Pinned post with image
+                      <a href="blog-single-full.html">
+                      <?php echo $lang["post-title-1"]?>
+													
 												</a>
 											</h6>
 											<div class="entry-meta mb-0">
 												<span class="entry-author-wrap">
 													<span class="vcard author">
 														<a href="#" title="Posts by admin" rel="author">
-															<span>by admin</span>
+															<span><?php echo $lang["t-by-admin"]?> </span>
 														</a>
 													</span><!-- .author -->
 												</span>
@@ -96,21 +98,22 @@
 											<div class="custom-date-wrap">
 												<div class="custom-date">
 													<span>25</span>
-													<span>may</span>
+													<span><?php echo $lang["may"]?> </span>
 												</div>
 											</div>
 										</div>
 										<div class="item-content">
 											<h6>
 												<a href="blog-single-full.html">
-													Simple post with image
+                        <?php echo $lang["post-title-2"]?>
+													
 												</a>
 											</h6>
 											<div class="entry-meta mb-0">
 												<span class="entry-author-wrap">
 													<span class="vcard author">
 														<a href="#" title="Posts by admin" rel="author">
-															<span>by admin</span>
+															<span><?php echo $lang["t-by-admin"]?> </span>
 														</a>
 													</span><!-- .author -->
 												</span>
@@ -151,21 +154,22 @@
 											<div class="custom-date-wrap">
 												<div class="custom-date">
 													<span>13</span>
-													<span>may</span>
+													<span><?php echo $lang["may"]?></span>
 												</div>
 											</div>
 										</div>
 										<div class="item-content">
 											<h6>
 												<a href="blog-single-full.html">
-													Sample post with video
+                        <?php echo $lang["post-title-3"]?>
+													
 												</a>
 											</h6>
 											<div class="entry-meta mb-0">
 												<span class="entry-author-wrap">
 													<span class="vcard author">
 														<a href="#" title="Posts by admin" rel="author">
-															<span>by admin</span>
+															<span><?php echo $lang["t-by-admin"]?> </span>
 														</a>
 													</span><!-- .author -->
 												</span>
@@ -212,21 +216,22 @@
 											<div class="custom-date-wrap">
 												<div class="custom-date">
 													<span>31</span>
-													<span>apr</span>
+													<span><?php echo $lang["apr"]?></span>
 												</div>
 											</div>
 										</div>
 										<div class="item-content">
 											<h6>
 												<a href="blog-single-full.html">
-													Sample post with carousel
+                        <?php echo $lang["post-title-4"]?>
+													
 												</a>
 											</h6>
 											<div class="entry-meta mb-0">
 												<span class="entry-author-wrap">
 													<span class="vcard author">
 														<a href="#" title="Posts by admin" rel="author">
-															<span>by admin</span>
+															<span><?php echo $lang["t-by-admin"]?> </span>
 														</a>
 													</span><!-- .author -->
 												</span>
@@ -267,21 +272,22 @@
 											<div class="custom-date-wrap">
 												<div class="custom-date">
 													<span>28</span>
-													<span>apr</span>
+													<span><?php echo $lang["apr"]?></span>
 												</div>
 											</div>
 										</div>
 										<div class="item-content">
 											<h6>
 												<a href="blog-single-full.html">
-													Influence of Environmental Conditions in NPAe
+                        <?php echo $lang["post-title-5"]?>
+													
 												</a>
 											</h6>
 											<div class="entry-meta mb-0">
 												<span class="entry-author-wrap">
 													<span class="vcard author">
 														<a href="#" title="Posts by admin" rel="author">
-															<span>by admin</span>
+															<span><?php echo $lang["t-by-admin"]?> </span>
 														</a>
 													</span><!-- .author -->
 												</span>
@@ -322,21 +328,22 @@
 											<div class="custom-date-wrap">
 												<div class="custom-date">
 													<span>21</span>
-													<span>apr</span>
+													<span><?php echo $lang["apr"]?></span>
 												</div>
 											</div>
 										</div>
 										<div class="item-content">
 											<h6>
 												<a href="blog-single-full.html">
-													Expanding the solar supply chain finance program
+                        <?php echo $lang["post-title-6"]?>
+													
 												</a>
 											</h6>
 											<div class="entry-meta mb-0">
 												<span class="entry-author-wrap">
 													<span class="vcard author">
 														<a href="#" title="Posts by admin" rel="author">
-															<span>by admin</span>
+															<span><?php echo $lang["t-by-admin"]?> </span>
 														</a>
 													</span><!-- .author -->
 												</span>
@@ -378,21 +385,22 @@
 											<div class="custom-date-wrap">
 												<div class="custom-date">
 													<span>12</span>
-													<span>apr</span>
+													<span><?php echo $lang["apr"]?></span>
 												</div>
 											</div>
 										</div>
 										<div class="item-content">
 											<h6>
 												<a href="blog-single-full.html">
-													Expanding the solar supply chain finance program
+                        <?php echo $lang["post-title-7"]?>
+													
 												</a>
 											</h6>
 											<div class="entry-meta mb-0">
 												<span class="entry-author-wrap">
 													<span class="vcard author">
 														<a href="#" title="Posts by admin" rel="author">
-															<span>by admin</span>
+															<span><?php echo $lang["t-by-admin"]?> </span>
 														</a>
 													</span><!-- .author -->
 												</span>
@@ -433,21 +441,22 @@
 											<div class="custom-date-wrap">
 												<div class="custom-date">
 													<span>02</span>
-													<span>apr</span>
+													<span><?php echo $lang["apr"]?></span>
 												</div>
 											</div>
 										</div>
 										<div class="item-content">
 											<h6>
 												<a href="blog-single-full.html">
-													Influence of Environmental Conditions in NPA
+                        <?php echo $lang["post-title-8"]?>
+													
 												</a>
 											</h6>
 											<div class="entry-meta mb-0">
 												<span class="entry-author-wrap">
 													<span class="vcard author">
 														<a href="#" title="Posts by admin" rel="author">
-															<span>by admin</span>
+															<span><?php echo $lang["t-by-admin"]?> </span>
 														</a>
 													</span><!-- .author -->
 												</span>
@@ -488,21 +497,22 @@
 											<div class="custom-date-wrap">
 												<div class="custom-date">
 													<span>29</span>
-													<span>mar</span>
+													<span><?php echo $lang["mar"]?></span>
 												</div>
 											</div>
 										</div>
 										<div class="item-content">
 											<h6>
 												<a href="blog-single-full.html">
-													New public attitude tracker towards renewable energy
+                        <?php echo $lang["post-title-9"]?>
+													
 												</a>
 											</h6>
 											<div class="entry-meta mb-0">
 												<span class="entry-author-wrap">
 													<span class="vcard author">
 														<a href="#" title="Posts by admin" rel="author">
-															<span>by admin</span>
+															<span><?php echo $lang["t-by-admin"]?> </span>
 														</a>
 													</span><!-- .author -->
 												</span>
@@ -533,7 +543,7 @@
 								</div>
 							</div>
 
-							<div class="divider--80"></div>
+							<!-- <div class="divider--80"></div>
 
 							<nav class="navigation pagination " role="navigation">
 								<h2 class="screen-reader-text">Posts navigation</h2>
@@ -559,7 +569,7 @@
 										<i class="ico-arrow-long"></i>
 									</a>
 								</div>
-							</nav>
+							</nav> -->
 
 						</main>
 

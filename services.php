@@ -6,16 +6,16 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <h1 class="emptytext">Services</h1>
+                                <h1 class="emptytext"><?php echo $lang["t-services"]?></h1>
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item">
-                                        <a href="./">Home</a>
+                                        <a href="./"><?php echo $lang["t-home"]?></a>
                                     </li>
                                     <li class="breadcrumb-item">
-                                        <a href="#">Pages</a>
+                                        <a href="#"><?php echo $lang["t-pages"]?></a>
                                     </li>
                                     <li class="breadcrumb-item active">
-                                        Services
+                                    <?php echo $lang["t-services"]?>
                                     </li>
                                 </ol>
                             </div>
@@ -57,32 +57,12 @@
                                                 <h5 class="mt-0">
                                                     <a
                                                         href="event-single-full.html"
-                                                        >Lands sales and
-                                                        logistics
+                                                        ><?php echo $lang["service-1-title"]?> 
                                                     </a>
                                                 </h5>
 
-                                                <p>
-                                                    Our relationships and
-                                                    experience of more than five
-                                                    years in the agricultural
-                                                    land market in Uganda is
-                                                    considered the cornerstone
-                                                    that allows us to help you
-                                                    find the best possible plot
-                                                    of land that suits your
-                                                    investment plans in
-                                                    agriculture in addition to
-                                                    avoiding fraud, which is a
-                                                    worrying obstacle to
-                                                    obtaining land in Africa in
-                                                    general, we are fully
-                                                    committed to do whatever is
-                                                    needed of papers and
-                                                    approvals to let you start
-                                                    farming immediately after
-                                                    and reap the result your
-                                                    investment.
+                                                <p><?php echo $lang["service-1-body"]?>
+                                                    
                                                 </p>
                                             </div>
                                         </div>
@@ -117,26 +97,12 @@
                                                 <h5 class="mt-0">
                                                     <a
                                                         href="event-single-full.html"
-                                                        >Farms Management</a
+                                                        ><?php echo $lang["service-2-title"]?> </a
                                                     >
                                                 </h5>
 
-                                                <p>
-                                                    As we have more than a farm
-                                                    at Uganda under our full
-                                                    supervision, and our
-                                                    ambitious vision to
-                                                    extending in agriculture
-                                                    sector within Uganda and
-                                                    Africa, we are able to offer
-                                                    you a full management of
-                                                    your farm with full
-                                                    qualified staff in addition
-                                                    to the needed machines and
-                                                    buildings to help you
-                                                    maximizing your profits and
-                                                    getting the best out of your
-                                                    agricultural investment.
+                                                <p><?php echo $lang["service-2-body"]?>
+                                                    
                                                 </p>
                                             </div>
                                         </div>
@@ -171,26 +137,21 @@
                                                 <h5 class="mt-0">
                                                     <a
                                                         href="event-single-full.html"
-                                                        >Invest with Al-wadi
+                                                        ><?php echo $lang["service-3-title"]?> 
                                                     </a>
                                                 </h5>
 
                                                 <p>
-                                                    We offer you the chance to
-                                                    invest in one of our farms
-                                                    that’s under our management
-                                                    with these investment
-                                                    options 
+                                                <?php echo $lang["service-3-body"]?>    
+                                                
                                                     <ul>
-                                                      <li>10 Acres investment</li>
-                                                      <li>50 Acres investment</li>
-                                                      <li>500 Acres investment </li>
+                                                      <li><?php echo $lang["service-3-body-1"]?></li>
+                                                      <li><?php echo $lang["service-3-body-2"]?></li>
+                                                      <li><?php echo $lang["service-3-body-3"]?> </li>
                                                     </ul>
                                                     
-                                                    <b>contact us
-                                                    for more details  and
-                                                    feasibility study for each
-                                                    investment plan.</b>
+                                                    <b>
+                                                    <?php echo $lang["service-3-body-4"]?></b>
                                                 </p>
                                             </div>
                                         </div>
@@ -225,12 +186,12 @@
                                                 <h5 class="mt-0">
                                                     <a
                                                         href="event-single-full.html"
-                                                        >Contract farming</a
+                                                        ><?php echo $lang["service-4-title"]?></a
                                                     >
                                                 </h5>
 
                                                 <p>
-                                                  Since we have our own farms, we’re able to provide a "contract farming" service, through which you can get your needed crops with the required quality and under appropriate farming conditions that helps you using your crop optimally for export to different markets or use it in the industrial process.
+                                                <?php echo $lang["service-4-body"]?>
                                                 </p>
                                             </div>
                                         </div>
@@ -265,13 +226,14 @@
                                                 <h5 class="mt-0">
                                                     <a
                                                         href="event-single-full.html"
-                                                        >Consultation Services
+                                                        ><?php echo $lang["service-5-title"]?>
                                                         </a
                                                     >
                                                 </h5>
 
                                                 <p>
-                                                  It’s always our pleasure to share with you our knowledge and experience upon your request and ensure that it will be helpful for you at assessing the risks and making the right decisions.
+                                                <?php echo $lang["service-5-body"]?>
+                                                  
                                                 </p>
                                             </div>
                                         </div>
@@ -306,13 +268,13 @@
                                                 <h5 class="mt-0">
                                                     <a
                                                         href="event-single-full.html"
-                                                        >Real Estate 
+                                                        ><?php echo $lang["service-6-title"]?> 
                                                         </a
                                                     >
                                                 </h5>
 
                                                 <p>
-                                                  The real estate market in Africa is one of the emerging markets, which is characterized by unique opportunities. Our team at Al-Wadi company includes highly qualified Engineers with extensive experience in the field of real estate and sub-contracting inside and outside Uganda, and therefore we provide you with the service of offering and selling all types of land plots for the purpose of real estate investment, in addition to helping you know The feasibility of your real estate project and its expected costs in detail, in addition to presenting real investment opportunities in the real estate market in Uganda.
+                                                <?php echo $lang["service-6-body"]?>
                                                 </p>
                                             </div>
                                         </div>

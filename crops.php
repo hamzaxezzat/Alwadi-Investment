@@ -5,16 +5,16 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <h1 class="emptytext">Blogs & Crops</h1>
+                                <h1 class="emptytext"><?php echo $lang["t-crops"]?> </h1>
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item">
-                                        <a href="./">Home</a>
+                                        <a href="./"><?php echo $lang["t-home"]?> </a>
                                     </li>
                                     <li class="breadcrumb-item">
-                                        <a href="#">Pages</a>
+                                        <a href="#"><?php echo $lang["t-pages"]?></a>
                                     </li>
                                     <li class="breadcrumb-item active">
-                                        Blogs & Crops
+                                    <?php echo $lang["t-crops"]?> 
                                     </li>
                                 </ol>
                             </div>
@@ -70,7 +70,7 @@
                                                 <h2 class="mt-0">
                                                     <a
                                                         href="service-single.html"
-                                                        >Avocado<span
+                                                        ><?php echo $lang["t-avocado"]?><span
                                                             class="color-main2"
                                                             >.</span
                                                         ></a
@@ -78,37 +78,12 @@
                                                 </h2>
 
                                                 <p>
-                                                    Avocado is one of the
-                                                    world’s most notorious
-                                                    fruits that provides the
-                                                    body with protein, iron,
-                                                    phosphorus, and magnesium
-                                                    just to name a few! One of
-                                                    the most preferable types of
-                                                    avocados is the “Avocado
-                                                    Hass” that’s being also used
-                                                    commonly to produce the
-                                                    avocado oil.
-                                                    <br />Avocado Hass grows
-                                                    well in Uganda’s weather
-                                                    conditions. The supply of
-                                                    avocado is increasing, but
-                                                    the European market still
-                                                    has a room for growth and
-                                                    can absorb the higher
-                                                    volumes.
+                                                <?php echo $lang["avocado-body"]?> 
                                                 </p>
 
                                                 <div
                                                     class="divider-40 divider-xl-50"
                                                 ></div>
-                                                <!-- <p>
-                                                    <a
-                                                        href="service-single.html"
-                                                        class="btn btn-outline-dark"
-                                                        >Know more</a
-                                                    >
-                                                </p> -->
                                             </div>
                                         </div>
                                     </div>
@@ -164,7 +139,9 @@
                                                 <h2 class="mt-0">
                                                     <a
                                                         href="service-single.html"
-                                                        >Coffee<span
+                                                        >
+                                                        <?php echo $lang["t-coffee"]?> 
+                                                        Coffee<span
                                                             class="color-main3"
                                                             >.</span
                                                         ></a
@@ -172,44 +149,13 @@
                                                 </h2>
 
                                                 <p>
-                                                    offe is the well known plant
-                                                    around the wrold, but what
-                                                    you probably don’t know is
-                                                    that Coffee is Uganda's most
-                                                    valuable crop, with the
-                                                    majority of the country's
-                                                    coffee being exported to
-                                                    Europe. There are three
-                                                    varities of coffee is
-                                                    growing in Uganda -Robusta
-                                                    “around 80% of Ugandan
-                                                    coffee” -Arabica “second
-                                                    most popular varitie” -Kent
-                                                    “not too popular in Uganda”
-                                                    The instant coffee market in
-                                                    Uganda was equal to 70.40
-                                                    million USD (calculated in
-                                                    retail prices) in 2015.
-                                                    Until 2025, the coffee
-                                                    market in Uganda is forecast
-                                                    to reach 260.68 million USD
-                                                    (in retail prices), thus
-                                                    increasing at a CAGR
-                                                    “compound annual growth
-                                                    rate” of 11.93% per annum
-                                                    for the period 2020-2025.
+                                                <?php echo $lang["coffee-body"]?> 
+                                                    
                                                 </p>
 
                                                 <div
                                                     class="divider-40 divider-xl-50"
                                                 ></div>
-                                                <!-- <p>
-                                                    <a
-                                                        href="service-single.html"
-                                                        class="btn btn-outline-dark"
-                                                        >Know more</a
-                                                    >
-                                                </p> -->
                                             </div>
                                         </div>
                                     </div>
@@ -261,7 +207,9 @@
                                                 <h2 class="mt-0">
                                                     <a
                                                         href="service-single.html"
-                                                        >Soybeans<span
+                                                        >
+                                                        <?php echo $lang["t-Soybeans"]?> 
+                                                        <span
                                                             class="color-main4"
                                                             >.</span
                                                         ></a
@@ -269,52 +217,13 @@
                                                 </h2>
 
                                                 <p>
-                                                    Soybean is the world’s most
-                                                    important legume crop
-                                                    because of its high protein
-                                                    (40%) and oil (20%) content.
-                                                    In fact, soybean produces
-                                                    the highest amount of
-                                                    protein per unit area among
-                                                    all crops. Production of
-                                                    soybean stands at 264
-                                                    million MT worldwide, with
-                                                    United States of America
-                                                    (USA), Brazil and Argentina
-                                                    being the largest producers,
-                                                    where the crop is of
-                                                    strategic national
-                                                    importance for the feed and
-                                                    food sectors. In Africa,
-                                                    Nigeria, South Africa, and
-                                                    Uganda are the largest
-                                                    producers, with annual
-                                                    volumes estimated at 1.5
-                                                    million metric tonnes
-                                                    Soybean is used to make
-                                                    numerous industrial products
-                                                    including oil, soaps,
-                                                    cosmetics, resins, plastics,
-                                                    ink, crayons, solvents,
-                                                    clothing, human edible
-                                                    products, livestock, and
-                                                    fish feeds. Livestock feed
-                                                    prepared from fat-free
-                                                    soybean has higher protein
-                                                    content compared to the
-                                                    whole grain cereals
+                                                <?php echo $lang["soybeans-body"]?> 
+                                                    
                                                 </p>
 
                                                 <div
                                                     class="divider-40 divider-xl-50"
                                                 ></div>
-                                                <!-- <p>
-                                                    <a
-                                                        href="service-single.html"
-                                                        class="btn btn-outline-dark"
-                                                        >Know more</a
-                                                    >
-                                                </p> -->
                                             </div>
                                         </div>
                                     </div>
@@ -370,7 +279,9 @@
                                                 <h2 class="mt-0">
                                                     <a
                                                         href="service-single.html"
-                                                        >Corn Crop “Maize”<span
+                                                        >
+                                                        <?php echo $lang["t-corn"]?> 
+                                                        <span
                                                             class="color-main"
                                                             >.</span
                                                         ></a
@@ -378,37 +289,13 @@
                                                 </h2>
 
                                                 <p>
-                                                    Maize is widely cultivated
-                                                    throughout the world, and a
-                                                    greater weight of maize is
-                                                    produced each year than any
-                                                    other grain. Over the years,
-                                                    total maize production in
-                                                    Uganda has gradually
-                                                    increased, from roughly
-                                                    800,000 tonnes in 2000
-                                                    to 2,575,000 tonnes in 2019.
-                                                    Maize is one of the
-                                                    traditional crops that is
-                                                    well-known for its
-                                                    cultivation in Uganda, and
-                                                    the cost of its cultivation
-                                                    is relatively cheap, its
-                                                    yield is stable compared to
-                                                    other crops that need
-                                                    intensive care.
+                                                <?php echo $lang["corn-body"]?> 
+                                                    
                                                 </p>
 
                                                 <div
                                                     class="divider-40 divider-xl-50"
                                                 ></div>
-                                                <!-- <p>
-                                                    <a
-                                                        href="service-single.html"
-                                                        class="btn btn-outline-dark"
-                                                        >Know more</a
-                                                    >
-                                                </p> -->
                                             </div>
                                         </div>
                                     </div>
@@ -459,7 +346,9 @@
                                                 <h2 class="mt-0">
                                                     <a
                                                         href="service-single.html"
-                                                        >Cacao<span
+                                                        >
+                                                        <?php echo $lang["t-cacao"]?> 
+                                                        <span
                                                             class="color-main4"
                                                             >.</span
                                                         ></a
@@ -467,38 +356,13 @@
                                                 </h2>
 
                                                 <p>
-                                                    Cacao trees are the source
-                                                    of many beloved products,
-                                                    including chocolate,
-                                                    cocoa butter, chocolate
-                                                    liquor, and cocoa solids.
-                                                    The trees thrive in warm,
-                                                    humid climates, as well as
-                                                    in greenhouses, and they can
-                                                    live for several decades.
-                                                    Cocoa, beans - production of
-                                                    Uganda increased from 145
-                                                    tonnes in 1971 to 35,000
-                                                    tonnes in 2020 growing at an
-                                                    average annual rate of
-                                                    18.92%. Uganda exported
-                                                    17,935 tonnes of cocoa worth
-                                                    $44.5m in 2011. This was an
-                                                    improvement from the 14,529
-                                                    tonnes worth $35m exported
-                                                    the previous year of 2010.
+                                                <?php echo $lang["cacao-body"]?> 
+                                                    
                                                 </p>
 
                                                 <div
                                                     class="divider-40 divider-xl-50"
                                                 ></div>
-                                                <!-- <p>
-                                                  <a
-                                                      href="service-single.html"
-                                                      class="btn btn-outline-dark"
-                                                      >Know more</a
-                                                  >
-                                              </p> -->
                                             </div>
                                         </div>
                                     </div>
@@ -554,7 +418,9 @@
                                                 <h2 class="mt-0">
                                                     <a
                                                         href="service-single.html"
-                                                        >Birds eye chili
+                                                        >
+                                                        <?php echo $lang["t-chili"]?> 
+                                                        
                                                         <span
                                                             class="color-main3"
                                                             >.</span
@@ -563,34 +429,13 @@
                                                 </h2>
 
                                                 <p>
-                                                    Is one of the most valuable
-                                                    crops that must be planted
-                                                    within equator regions, and
-                                                    it’s being exported mainly
-                                                    to Europe and India. There
-                                                    are some challenges to
-                                                    manage planting process
-                                                    successfully such as the
-                                                    intensive labor force needed
-                                                    for harvesting in addition
-                                                    to drying and sorting
-                                                    process also to ensure high
-                                                    quality. At our farms we
-                                                    managed to plant and export
-                                                    high quality yield of “Birds
-                                                    eye chili”
+                                                <?php echo $lang["chili-body"]?> 
+                                                    
                                                 </p>
 
                                                 <div
                                                     class="divider-40 divider-xl-50"
                                                 ></div>
-                                                <!-- <p>
-                                                    <a
-                                                        href="service-single.html"
-                                                        class="btn btn-outline-dark"
-                                                        >Know more</a
-                                                    >
-                                                </p> -->
                                             </div>
                                         </div>
                                     </div>

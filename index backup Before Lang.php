@@ -1,9 +1,7 @@
 
 <?php include 'includes/header.php' ?>
 
-
-
-                <section class="intro_section page_slider line-gradient ltr">
+                <section class="intro_section page_slider line-gradient">
                     <div class="flexslider">
                         <ul
                             class="slides slider_height_desktop_850 slider_height_laptop_700 slider_height_tablet_500"
@@ -24,14 +22,14 @@
                                                         <h3
                                                             class="emptytext text-uppercase"
                                                         >
-                                                        <?php  echo $lang["slider-1"]?>
+                                                            We Farm, You Earn
                                                         </h3>
                                                     </div>
                                                     <div
                                                         class="d-inline-block text-white mt-xl-3"
                                                     >
                                                         <h4 class="bigger">
-                                                            <?php  echo $lang["alwadi"]?> <span
+                                                            Alwadi<span
                                                                 class="color-main2"
                                                                 >.</span
                                                             >
@@ -63,15 +61,15 @@
                                                         <h3
                                                             class="emptytext text-uppercase"
                                                         >
-                                                        <?php  echo $lang["slider-2"]?>
-                                                            
+                                                            Invest. Empower.
+                                                            Profit.
                                                         </h3>
                                                     </div>
                                                     <div
                                                         class="d-inline-block text-white mt-xl-3"
                                                     >
                                                         <h4 class="bigger">
-                                                        <?php  echo $lang["alwadi"]?> <span
+                                                            Alwadi<span
                                                                 class="color-main4"
                                                                 >.</span
                                                             >
@@ -103,15 +101,15 @@
                                                         <h3
                                                             class="emptytext text-uppercase"
                                                         >
-                                                        <?php  echo $lang["slider-3"]?>
-                                                            
+                                                            Put you miney behind
+                                                            food and crop
                                                         </h3>
                                                     </div>
                                                     <div
                                                         class="d-inline-block text-white mt-xl-3"
                                                     >
                                                         <h4 class="bigger">
-                                                        <?php  echo $lang["alwadi"]?> <span
+                                                            Alwadi<span
                                                                 class="color-main3"
                                                                 >.</span
                                                             >
@@ -143,15 +141,14 @@
                                                         <h3
                                                             class="emptytext bigger text-uppercase"
                                                         >
-                                                        <?php  echo $lang["slider-4"]?>
-                                                            
+                                                            Investment
                                                         </h3>
                                                     </div>
                                                     <div
                                                         class="d-inline-block text-white mt-xl-3"
                                                     >
                                                         <h4 class="bigger">
-                                                        <?php  echo $lang["alwadi"]?> <span
+                                                            Alwadi<span
                                                                 class="color-main"
                                                                 >.</span
                                                             >
@@ -265,13 +262,13 @@
                                                 class="mt-2 mb-0 text-uppercase"
                                             >
                                                 <span
-                                                    data-content="<?php echo $lang["product-1"]?>"
+                                                    data-content="Avocad"
                                                     class="emptytext"
-                                                    ><?php  echo $lang["product-1"]?> </span
+                                                    >Avocad</span
                                                 >
                                             </h3>
                                             <h5 class="mt-1">
-                                            <?php  echo $lang["alwadi"]?> <span class="color-main2"
+                                                Alwadi<span class="color-main2"
                                                     >.</span
                                                 >
                                             </h5>
@@ -301,13 +298,13 @@
                                                 class="mt-2 mb-0 text-uppercase"
                                             >
                                                 <span
-                                                    data-content="<?php  echo $lang["product-2"]?>"
+                                                    data-content="coffee"
                                                     class="emptytext"
-                                                    ><?php  echo $lang["product-2"]?></span
+                                                    >Coffee</span
                                                 >
                                             </h3>
                                             <h5 class="mt-1">
-                                            <?php  echo $lang["alwadi"]?> <span class="color-main3"
+                                                Alwadi<span class="color-main3"
                                                     >.</span
                                                 >
                                             </h5>
@@ -337,13 +334,13 @@
                                                 class="mt-2 mb-0 text-uppercase"
                                             >
                                                 <span
-                                                    data-content="<?php  echo $lang["product-3"]?>"
+                                                    data-content="Soya"
                                                     class="emptytext"
-                                                    ><?php  echo $lang["product-3"]?> </span
+                                                    >Soya</span
                                                 >
                                             </h3>
                                             <h5 class="mt-1">
-                                            <?php  echo $lang["alwadi"]?> <span class="color-main4"
+                                                Alwadi<span class="color-main4"
                                                     >.</span
                                                 >
                                             </h5>
@@ -373,13 +370,13 @@
                                                 class="mt-2 mb-0 text-uppercase"
                                             >
                                                 <span
-                                                    data-content="<?php  echo $lang["product-4"]?>"
+                                                    data-content="Corn"
                                                     class="emptytext"
-                                                    ><?php  echo $lang["product-4"]?> </span
+                                                    >Corn</span
                                                 >
                                             </h3>
                                             <h5 class="mt-1">
-                                            <?php  echo $lang["alwadi"]?> <span class="color-main"
+                                                Alwadi<span class="color-main"
                                                     >.</span
                                                 >
                                             </h5>
@@ -422,7 +419,9 @@
                                     <div
                                         class="icon-box fs-32 d-inline-flex align-items-center justify-content-center"
                                     >
-                                        <span class="iq-rotate-text"><?php  echo $lang["animate-2"] ?></span
+                                        <span class="iq-rotate-text"
+                                            >Alwadi for agricultural
+                                            investment*</span
                                         >
                                         <i class="ico color-main ico-quote"></i>
                                     </div>
@@ -434,38 +433,45 @@
                             >
                                 <div class="divider-50 divider-lg-0"></div>
                                 <h2 class="special-heading">
-                                    <span><?php  echo $lang["i-about-title"] ?></span>
+                                    <span>Green as far as the eye can see</span>
                                 </h2>
                                 <div class="divider-30 divider-lg-50"></div>
                                 <p>
-                                   <?php  echo $lang["i-about-body"] ?>
+                                    We’re among the world’s leading investment
+                                    in agricultural, we providers that is
+                                    revolutionising and redefining the way
+                                    sustainable green sources are important
+                                    across the world. We are presented in
+                                    Kampala - Uganda.
                                 </p>
                                 <div class="divider-50"></div>
                                 <a
                                     class="btn btn-outline-dark"
                                     href="about.php"
-                                    ><?php  echo $lang["t-more-about-us"] ?></a
+                                    >more about us</a
                                 >
                             </div>
                         </div>
                     </div>
                 </section>
                 <!--About End-->
-                <!--Banner Start-->
-                <section class="ls banner-section">
+  <!--Banner Start-->
+  <section class="ls banner-section">
                     <div class="title-custom position-relative">
                         <span class="emptytext color-darkgrey-light"
-                            ><?php  echo $lang["animate-1"] ?></span
+                            >-We Farm you earn</span
                         >
                     </div>
                     <div class="title-custom right position-relative">
-                        <span class="color-darkgrey"><?php  echo $lang["animate-1"] ?></span>
+                        <span class="color-darkgrey">We Farm you earn</span>
                     </div>
                 </section>
                 <!--Banner End-->
 
                 <!-- Gallery Start -->
-                <section class="ls s-pt-90 s-pb-10 s-pt-xl-100 s-pb-xl-80 c-mb-40 c-gutter-40 <?php  echo $lang["language"]?>">
+                <section
+                    class="ls s-pt-90 s-pb-10 s-pt-xl-100 s-pb-xl-80 c-mb-40 c-gutter-40"
+                >
                     <div class="container">
                         <div class="row">
                             <!-- Start -->
@@ -482,8 +488,8 @@
                                     </div>
                                     <div class="item-content pt-2">
                                         <p>
-                                          <?php  echo $lang["gallery-1"] ?>
-                                            
+                                            Showing a piece of land for the
+                                            investors
                                         </p>
                                     </div>
                                 </div>
@@ -502,7 +508,9 @@
                                     </div>
                                     <div class="item-content pt-2">
                                         <p>
-                                        <?php  echo $lang["gallery-2"] ?>
+                                            Our relationship with the local
+                                            community is a milestone for our
+                                            work
                                         </p>
                                     </div>
                                 </div>
@@ -521,8 +529,8 @@
                                     </div>
                                     <div class="item-content pt-2">
                                         <p>
-                                        <?php  echo $lang["gallery-3"] ?>
-                                            
+                                            Our CEO in a meeting with the
+                                            Ugandan minister of investment
                                         </p>
                                     </div>
                                 </div>
@@ -540,8 +548,9 @@
                                         </div>
                                     </div>
                                     <div class="item-content pt-2">
-                                        <p><?php  echo $lang["gallery-4"] ?>
-                                            
+                                        <p>
+                                            Inspecting a plot of land before
+                                            buying process with an investor
                                         </p>
                                     </div>
                                 </div>
@@ -559,7 +568,7 @@
                                         </div>
                                     </div>
                                     <div class="item-content pt-2">
-                                        <p><?php  echo $lang["gallery-5"] ?></p>
+                                        <p>One of our farm’s visits</p>
                                     </div>
                                 </div>
                             </div>
@@ -577,7 +586,7 @@
                                         </div>
                                     </div>
                                     <div class="item-content pt-2">
-                                        <p><?php  echo $lang["gallery-6"] ?></p>
+                                        <p>Birds eye chili crop at our farm</p>
                                     </div>
                                 </div>
                             </div>
@@ -595,8 +604,8 @@
                                         </div>
                                     </div>
                                     <div class="item-content pt-2">
-                                        <p><?php  echo $lang["gallery-7"] ?>
-                                            
+                                        <p>
+                                            Avocado nursery at one of our farms
                                         </p>
                                     </div>
                                 </div>
@@ -614,8 +623,9 @@
                                         </div>
                                     </div>
                                     <div class="item-content pt-2">
-                                        <p><?php  echo $lang["gallery-8"] ?>
-                                            
+                                        <p>
+                                            Soil testing is one of our main
+                                            concerns
                                         </p>
                                     </div>
                                 </div>
@@ -623,7 +633,7 @@
                             <!-- .col-* -->
                         </div>
                     </div>
-              </section>
+                </section>
                 <!-- Gallery End -->
 
               
@@ -643,19 +653,25 @@
                     <div class="container">
                         <div class="row">
                             <h2 class="heading">
-                                <span><?php  echo $lang[ "i-steps-title-1"] ?><br /><?php  echo $lang[ "i-steps-title-2"] ?></span>
+                                <span>Why should you<br />choose Alwadi ?</span>
                             </h2>
                             <div class="divider-50 divider-xl-60"></div>
                             <div class="col-xl-4 col-lg-6">
                                 <div class="icon-box">
                                     <h5 class="mb-3 position-relative">
-                                      <?php  echo $lang[ "i-step-1-title"] ?>
+                                        Great experience with the environment
                                         <span class="text-special emptytext"
                                             >01</span
                                         >
                                     </h5>
                                     <p>
-                                    <?php  echo $lang[ "i-step-1-body"] ?>
+                                        Great experience with the environment,
+                                        the Ugandan regions, the fertility of
+                                        the land and the intensity of rainfall
+                                        in it, as well as the purchase and
+                                        completion of procedures and the
+                                        handover of the land to several
+                                        companies
                                     </p>
                                 </div>
                             </div>
@@ -665,14 +681,21 @@
                                 ></div>
                                 <div class="icon-box">
                                     <h5 class="mb-3 position-relative">
-                                    <?php  echo $lang[ "i-step-2-title"] ?>
-                                        
+                                        The wide network of relations
                                         <span class="text-special emptytext"
                                             >02</span
                                         >
                                     </h5>
-                                    <p><?php  echo $lang[ "i-step-2-body"] ?>
-                                        
+                                    <p>
+                                        The wide network of relations that the
+                                        company enjoys with governmental,
+                                        political and societal agencies, which
+                                        ensures safe and fast procedures for
+                                        obtaining lands <br />
+                                        The work team has competence,
+                                        credibility and responsibility,
+                                        regardless of the value of the financial
+                                        return
                                     </p>
                                 </div>
                             </div>
@@ -682,15 +705,24 @@
                                 <div class="divider-60 divider-xl-160"></div>
                                 <div class="icon-box">
                                     <h5 class="mb-3 position-relative">
-                                    <?php  echo $lang[ "i-step-3-title"] ?>
-                                        
+                                        extensive experience to support the
+                                        investor
                                         <span class="text-special emptytext"
                                             >03</span
                                         >
                                     </h5>
                                     <p>
-                                    <?php  echo $lang[ "i-step-3-body"] ?>
-                                        
+                                        Al-Wadi Company has extensive experience
+                                        to support the investor in the
+                                        post-purchase process in all aspects of
+                                        agricultural investment, from forming a
+                                        trained team, communicating with
+                                        agricultural research centres and local
+                                        expertise, facilitating obtaining
+                                        agricultural process inputs from
+                                        accredited companies, and supporting the
+                                        marketing process of products internally
+                                        and externally.
                                     </p>
                                 </div>
                             </div>
@@ -700,10 +732,10 @@
                 <!--Steps End-->
 
                 <!-- Services Start-->
-                <section class="ls s-py-90 <?php  echo $lang["language"]?>">
+                <section class="ls s-py-90">
                     <div class="container">
                         <h2 class="heading">
-                            <span><?php  echo $lang[ "our-services"] ?></span>
+                            <span>Our Services</span>
                         </h2>
                         <div class="row">
                             <main class="col-12">
@@ -733,8 +765,9 @@
                                                 <h6>
                                                     <a
                                                         href="services.php#service-1"
-                                                    > <?php echo $lang[ "service-1"]?>
-                                                        
+                                                    >
+                                                        Agricultural land sales
+                                                        and Logistics
                                                     </a>
                                                 </h6>
                                             </div>
@@ -766,8 +799,8 @@
                                                 <h6>
                                                     <a
                                                         href="services.php#service-2"
-                                                    > <?php echo $lang[ "service-2"]?>
-                                                        
+                                                    >
+                                                        Farms Management
                                                     </a>
                                                 </h6>
                                             </div>
@@ -798,8 +831,7 @@
                                             <div class="item-content">
                                                 <h6>
                                                     <a href="services.php">
-                                                    <?php echo $lang[ "service-3"]?>
-                                                        
+                                                        Invest with Alwadi
                                                     </a>
                                                 </h6>
                                             </div>
@@ -833,8 +865,7 @@
                                                     <a
                                                         href="services.php#service-4"
                                                     >
-                                                    <?php echo $lang[ "service-4"]?>
-                                                        
+                                                        Contract Farming
                                                     </a>
                                                 </h6>
                                             </div>
@@ -867,8 +898,7 @@
                                                     <a
                                                         href="services.php#service-5"
                                                     >
-                                                    <?php echo $lang[ "service-5"]?>
-                                                        
+                                                        Consultation Services
                                                     </a>
                                                 </h6>
                                             </div>
@@ -901,8 +931,7 @@
                                                     <a
                                                         href="services.php#service-6"
                                                     >
-                                                    <?php echo $lang[ "service-6"]?>
-                                                        
+                                                        Real Estate services
                                                     </a>
                                                 </h6>
                                             </div>
@@ -917,12 +946,13 @@
                 <!-- Services End -->
 
                 <!-- Start F&Q -->
-                <section class="ls s-pt-90 s-pb-60 s-pt-xl-150 s-pb-xl-120 c-gutter-60 <?php  echo $lang["language"]?>">
+                <section
+                    class="ls s-pt-90 s-pb-60 s-pt-xl-150 s-pb-xl-120 c-gutter-60">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6">
                                 <h4 class="special-heading">
-                                    <span> <?php echo $lang[ "frequent-questions"]?></span>
+                                    <span>Frequent Questions</span>
                                 </h4>
                                 <div class="divider-40"></div>
                                 <div id="accordion01" role="tablist">
@@ -939,11 +969,11 @@
                                                     aria-expanded="true"
                                                     aria-controls="collapse01"
                                                 >
-                                                <span> <?php echo $lang[ "q1"]?></span>
-                                                    
+                                                    Why agricultural investment?
                                                 </a>
                                             </h5>
                                         </div>
+
                                         <div
                                             id="collapse01"
                                             class="collapse"
@@ -953,7 +983,14 @@
                                         >
                                             <div class="card-body">
                                                 <p>
-                                                <span> <?php echo $lang[ "a1"]?></span>
+                                                    Agricultural investment is
+                                                    considered a safe investment
+                                                    if it is managed properly,
+                                                    because the asset is always
+                                                    valuable, in addition to the
+                                                    urgent and growing need of
+                                                    the world in food
+                                                    production.
                                                 </p>
                                             </div>
                                         </div>
@@ -972,8 +1009,8 @@
                                                     aria-expanded="false"
                                                     aria-controls="collapse02"
                                                 >
-                                                <span> <?php echo $lang[ "q2"]?></span>
-                                                    
+                                                    Why agricultural investment
+                                                    in Uganda?
                                                 </a>
                                             </h5>
                                         </div>
@@ -986,8 +1023,34 @@
                                         >
                                             <div class="card-body">
                                                 <p>
-                                                <span> <?php echo $lang[ "a2"]?></span>
-                                                    
+                                                    Uganda has several
+                                                    advantages that make it an
+                                                    ideal environment for
+                                                    agricultural investment,
+                                                    which can be summarized in
+                                                    the following points:
+                                                    -Affordable land prices due
+                                                    to the large unused areas
+                                                    -Fertile lands suitable for
+                                                    almost all types of crops -A
+                                                    very stable rainfall pattern
+                                                    without the need for
+                                                    irrigation systems in most
+                                                    areas -Being on the equator
+                                                    with only 12 other countries
+                                                    in the world, the equator
+                                                    provides a suitable climate
+                                                    for high value crops -The
+                                                    temperature is stable from
+                                                    21 to 31 throughout the year
+                                                    and is considered ideal
+                                                    weather -Its altitude ranges
+                                                    from 1,000 to 1,500 meters
+                                                    above sea level, and this
+                                                    altitude represents a
+                                                    cornerstone in the
+                                                    cultivation of many rare
+                                                    crops
                                                 </p>
                                             </div>
                                         </div>
@@ -1006,8 +1069,7 @@
                                                     aria-expanded="false"
                                                     aria-controls="collapse04"
                                                 >
-                                                <span> <?php echo $lang[ "q3"]?></span>
-                                                    
+                                                    How do I visit Uganda?
                                                 </a>
                                             </h5>
                                         </div>
@@ -1020,7 +1082,12 @@
                                         >
                                             <div class="card-body">
                                                 <p>
-                                                <span> <?php echo $lang["a3"]?></span>             
+                                                    You must make a visa online
+                                                    through the website of the
+                                                    Ministry of Immigration
+                                                    https://visas.immigration.go.ug/#/check
+                                                    with the payment of $ 50
+                                                    visa fees
                                                 </p>
                                             </div>
                                         </div>
@@ -1039,8 +1106,8 @@
                                                     aria-expanded="false"
                                                     aria-controls="collapse05"
                                                 >
-                                                <span> <?php echo $lang["q4"]?></span>
-                                                    
+                                                    What is the nature of the
+                                                    climate in Uganda?
                                                 </a>
                                             </h5>
                                         </div>
@@ -1053,7 +1120,16 @@
                                         >
                                             <div class="card-body">
                                                 <p>
-                                                <span> <?php echo $lang["a4"]?></span>
+                                                    The climate of Uganda is
+                                                    tropical. It is located on
+                                                    the equator, but for its
+                                                    altitude above sea level by
+                                                    1500-1000 m, you will find
+                                                    that the temperature is
+                                                    (20-30) degrees Celsius
+                                                    throughout the year and the
+                                                    rainfall is very high
+                                                    (1000-1500) mm per year.
                                                 </p>
                                             </div>
                                         </div>
@@ -1072,7 +1148,8 @@
                                                     aria-expanded="false"
                                                     aria-controls="collapse06"
                                                 >
-                                                <span> <?php echo $lang["q5"]?></span>
+                                                    What is the nature of the
+                                                    land in Uganda?
                                                 </a>
                                             </h5>
                                         </div>
@@ -1085,8 +1162,11 @@
                                         >
                                             <div class="card-body">
                                                 <p>
-                                                <span> <?php echo $lang["a5"]?></span>
-                                                    
+                                                    The land is mostly fertile
+                                                    plains and valleys. The
+                                                    nature of the soil is lumpy
+                                                    (clay mixed with sand) to
+                                                    red in some areas.
                                                 </p>
                                             </div>
                                         </div>
@@ -1105,8 +1185,7 @@
                                                     aria-expanded="false"
                                                     aria-controls="collapse06"
                                                 >
-                                                <span> <?php echo $lang["q6"]?></span>
-                                                    
+                                                    Where is Uganda located?
                                                 </a>
                                             </h5>
                                         </div>
@@ -1119,8 +1198,27 @@
                                         >
                                             <div class="card-body">
                                                 <p>
-                                                <span> <?php echo $lang["a6"]?></span>
-                                                    
+                                                    Uganda is located within the
+                                                    countries of the East
+                                                    African Union (Kenya -
+                                                    Tanzania - Uganda - Rwanda -
+                                                    Burundi -) and is located on
+                                                    Lake Victoria, which is the
+                                                    largest tropical lake in the
+                                                    world and the second largest
+                                                    fresh lake in the world and
+                                                    there are many lakes such as
+                                                    Lake Albert, Cayuga, George,
+                                                    Edward, and others, many of
+                                                    the rivers flows from Kenya
+                                                    in the east and the Congo in
+                                                    the west. The population is
+                                                    about 55 million, and it is
+                                                    also the source of food for
+                                                    many countries around it,
+                                                    such as South Sudan, Kenya,
+                                                    and the Democratic Republic
+                                                    of the Congo.
                                                 </p>
                                             </div>
                                         </div>
@@ -1139,7 +1237,9 @@
                                                     aria-expanded="false"
                                                     aria-controls="collapse06"
                                                 >
-                                                <span> <?php echo $lang["q7"]?></span>
+                                                    What is the degree of
+                                                    security stability in
+                                                    Uganda?
                                                 </a>
                                             </h5>
                                         </div>
@@ -1152,8 +1252,17 @@
                                         >
                                             <div class="card-body">
                                                 <p>
-                                                <span> <?php echo $lang["a7"]?></span>
-                                                    
+                                                    The country of Uganda is
+                                                    largely stable in security
+                                                    and politics, despite the
+                                                    presence of fraud. If the
+                                                    investor is not aware of
+                                                    this, he may fall prey to
+                                                    fraud. Without strong
+                                                    political, security and
+                                                    societal relations, he may
+                                                    lose a lot of time, effort,
+                                                    and money.
                                                 </p>
                                             </div>
                                         </div>
@@ -1172,7 +1281,8 @@
                                                     aria-expanded="false"
                                                     aria-controls="collapse06"
                                                 >
-                                                <span> <?php echo $lang["q8"]?></span>
+                                                    What is the natural
+                                                    resources in Uganda?
                                                 </a>
                                             </h5>
                                         </div>
@@ -1185,8 +1295,17 @@
                                         >
                                             <div class="card-body">
                                                 <p>
-                                                <span> <?php echo $lang["a8"]?></span>
-                                                    
+                                                    Until recently, agriculture,
+                                                    pastoralism and fishing were
+                                                    the main source of wealth in
+                                                    Uganda. In 2019 AD, oil
+                                                    fields were discovered, and
+                                                    production will take place
+                                                    in 2023 AD, and this year
+                                                    2022 AD, very large gold
+                                                    mines were discovered in the
+                                                    east and west of the
+                                                    country.
                                                 </p>
                                             </div>
                                         </div>
@@ -1213,8 +1332,9 @@
                                                     aria-expanded="true"
                                                     aria-controls="collapse12"
                                                 >
-                                                <span> <?php echo $lang["q9"]?></span>
-                                                    
+                                                    What are the risks of
+                                                    agricultural investment in
+                                                    Uganda?
                                                 </a>
                                             </h5>
                                         </div>
@@ -1228,8 +1348,22 @@
                                         >
                                             <div class="card-body">
                                                 <p>
-                                                <span> <?php echo $lang["a9"]?></span>
-                                                    
+                                                    The biggest risk is the lack
+                                                    of identification papers
+                                                    (titles) for many
+                                                    agricultural lands, which
+                                                    requires great effort and
+                                                    costs to extract the
+                                                    approved documents for the
+                                                    land, and if any, some of
+                                                    them will have many
+                                                    problems, as well as the
+                                                    presence of some local
+                                                    squatters other than the
+                                                    original owners of the land,
+                                                    and Al-Wadi Company has
+                                                    great experience in doing
+                                                    Safe purchases
                                                 </p>
                                             </div>
                                         </div>
@@ -1249,8 +1383,9 @@
                                                     aria-expanded="false"
                                                     aria-controls="collapse13"
                                                 >
-                                                <span> <?php echo $lang["q10"]?></span>
-                                                   
+                                                    Are there incentives for
+                                                    agricultural investment in
+                                                    Uganda?
                                                 </a>
                                             </h5>
                                         </div>
@@ -1263,7 +1398,19 @@
                                         >
                                             <div class="card-body">
                                                 <p>
-                                                <span> <?php echo $lang["a10"]?></span>
+                                                    There are great investment
+                                                    incentives for the
+                                                    agricultural sector,
+                                                    including tax exemption for
+                                                    companies operating in the
+                                                    field, as well as exemption
+                                                    of all imported inputs (such
+                                                    as agricultural machinery,
+                                                    fertilizers, pesticides,
+                                                    seeds and irrigation
+                                                    systems) from any customs,
+                                                    as well as tax and customs
+                                                    exemption on exports.
                                                 </p>
                                             </div>
                                         </div>
@@ -1283,8 +1430,9 @@
                                                     aria-expanded="false"
                                                     aria-controls="collapse14"
                                                 >
-                                                <span> <?php echo $lang["q11"]?></span>
-                                                    
+                                                    How to start your
+                                                    agricultural investment in
+                                                    Uganda?
                                                 </a>
                                             </h5>
                                         </div>
@@ -1297,8 +1445,18 @@
                                         >
                                             <div class="card-body">
                                                 <p>
-                                                <span> <?php echo $lang["a11"]?></span>
-                                                    
+                                                    Contact Al-Wadi Company
+                                                    through its various
+                                                    platforms to facilitate the
+                                                    visa procedures as well as
+                                                    arrange a visit to the state
+                                                    of Uganda to view the plots
+                                                    of land offered to us and to
+                                                    tour within the state of
+                                                    Uganda to find out
+                                                    everything related to
+                                                    agricultural investment
+                                                    there
                                                 </p>
                                             </div>
                                         </div>
@@ -1318,8 +1476,10 @@
                                                     aria-expanded="false"
                                                     aria-controls="collapse15"
                                                 >
-                                                <span> <?php echo $lang["q12"]?></span>
-                                                    
+                                                    What is the value of the
+                                                    capital required for
+                                                    agricultural investment in
+                                                    Uganda?
                                                 </a>
                                             </h5>
                                         </div>
@@ -1332,8 +1492,19 @@
                                         >
                                             <div class="card-body">
                                                 <p>
-                                                <span> <?php echo $lang["a12"]?></span>
-                                                    
+                                                    This depends on the quality
+                                                    of your agricultural
+                                                    investment. Do you want to
+                                                    buy a farm and fully manage
+                                                    it, or participate with
+                                                    Al-Wadi Company in one of
+                                                    its farms offered for
+                                                    participation? Therefore,
+                                                    the average amount required
+                                                    according to the investment
+                                                    method is from 20 thousand
+                                                    dollars to 500 thousand
+                                                    dollars
                                                 </p>
                                             </div>
                                         </div>
@@ -1353,8 +1524,9 @@
                                                     aria-expanded="false"
                                                     aria-controls="collapse16"
                                                 >
-                                                <span> <?php echo $lang["q13"]?></span>
-                                                   
+                                                    Are there any problems in
+                                                    the movement of money to and
+                                                    from Uganda?
                                                 </a>
                                             </h5>
                                         </div>
@@ -1367,8 +1539,13 @@
                                         >
                                             <div class="card-body">
                                                 <p>
-                                                <span> <?php echo $lang["a13"]?></span>
-                                                    
+                                                    There are no obstacles to
+                                                    transferring your money to
+                                                    or outside Uganda, except
+                                                    for the country from which
+                                                    the money comes, and there
+                                                    are also some ways to
+                                                    overcome these obstacles
                                                 </p>
                                             </div>
                                         </div>
@@ -1387,8 +1564,10 @@
                                                     aria-expanded="false"
                                                     aria-controls="collapse16"
                                                 >
-                                                <span> <?php echo $lang["q14"]?></span>
-</a>
+                                                    Does Al-Wadi Company have
+                                                    influential relations in
+                                                    Uganda?
+                                                </a>
                                             </h5>
                                         </div>
                                         <div
@@ -1400,8 +1579,18 @@
                                         >
                                             <div class="card-body">
                                                 <p>
-                                                <span> <?php echo $lang["a14"]?></span>
-                                                    
+                                                    There are excellent
+                                                    relations for Al-Wadi
+                                                    Company within the state of
+                                                    Uganda to facilitate the
+                                                    process of agricultural
+                                                    investment, including with
+                                                    members of the Ugandan
+                                                    Parliament and the Ministry
+                                                    of Investment represented by
+                                                    the Minister, as well as
+                                                    with some leaders of the
+                                                    army and local governments
                                                 </p>
                                             </div>
                                         </div>
@@ -1420,8 +1609,8 @@
                                                     aria-expanded="false"
                                                     aria-controls="collapse16"
                                                 >
-                                                <span> <?php echo $lang["q15"]?></span>
-                                                    
+                                                    Can I invest remotely in
+                                                    Uganda?
                                                 </a>
                                             </h5>
                                         </div>
@@ -1434,8 +1623,16 @@
                                         >
                                             <div class="card-body">
                                                 <p>
-                                                <span> <?php echo $lang["a15"]?></span>
-                                                    
+                                                    Al Wadi Company provides
+                                                    remote investment to its
+                                                    clients in two ways: the
+                                                    first is to provide complete
+                                                    management and supervision
+                                                    by the company for your
+                                                    farm, and the second is to
+                                                    participate in a specific
+                                                    number of acres in one of Al
+                                                    Wadi Company’s farms
                                                 </p>
                                             </div>
                                         </div>
@@ -1447,12 +1644,7 @@
                 </section>
                 <!-- End F&Q -->
 
-
-
-
-
-
-                <!-- Contact Form -->
+                <!-- Content Start -->
                 <section class="ls ms s-py-90 s-py-xl-150">
                     <div class="container">
                         <div class="row">
@@ -1461,7 +1653,7 @@
                                 data-animation="scaleAppear"
                             >
                                 <div class="hero-bg p-30 p-xl-60">
-                                    <h5 for="name"><?php echo $lang["contact-form"]?></h5>
+                                    <h5 for="name">Contact Form</h5>
 
                                     <form
                                         action="https://formsubmit.co/hamza2007ezzat@gmail.com"
@@ -1483,31 +1675,31 @@
                                         <input
                                             type="text"
                                             name="name"
-                                            placeholder="<?php echo $lang["name"]?>"
+                                            placeholder="Name"
                                             required
                                         />
 
                                         <input
                                             type="email"
                                             name="email"
-                                            placeholder="<?php echo $lang["email"]?>"
+                                            placeholder="Email"
                                             required
                                         />
                                         <label for="message"
-                                            ><?php echo $lang["your-message"]?> </label
+                                            >Your Message</label
                                         >
 
                                         <textarea
                                             name="message"
                                             cols="20"
                                             rows="6"
-                                            placeholder=" <?php echo $lang["your-message"]?>"
+                                            placeholder="Your message"
                                         ></textarea>
                                         <button
                                             type="submit"
                                             class="button btn btn-maincolor btn-block"
                                         >
-                                        <?php echo $lang["send"]?>
+                                            Send
                                         </button>
                                     </form>
                                 </div>
@@ -1519,7 +1711,7 @@
                                 data-animation="scaleAppear"
                             >
                                 <div class="hero-bg p-30 p-xl-60">
-                                    <h5><?php echo $lang["contact-info"]?></h5>
+                                    <h5>Contact Info</h5>
 
                                     <div class="d-flex media mb-20">
                                         <div class="icon-styled fs-40">
@@ -1527,9 +1719,9 @@
                                         </div>
 
                                         <div class="media-body">
-                                            <h6><?php echo $lang["t-address"]?></h6>
+                                            <h6>Address:</h6>
                                             <p class="color-darkgrey">
-                                            <?php echo $lang["h-address"]?>
+                                                Munyonyo - Kampala - Uganda
                                             </p>
                                         </div>
                                     </div>
@@ -1540,7 +1732,7 @@
                                         </div>
 
                                         <div class="media-body">
-                                            <h6><?php echo $lang["t-phone"]?>:</h6>
+                                            <h6>Phone:</h6>
                                             <p>
                                                 <a href="tel:+256779081082"
                                                     >+256 779 081 082</a
@@ -1555,7 +1747,7 @@
                                         </div>
 
                                         <div class="media-body">
-                                            <h6><?php echo $lang["t-email"]?>:</h6>
+                                            <h6>Email:</h6>
                                             <p>
                                                 <a
                                                     href="mailto:info@alwadi-invest.com"
@@ -1565,7 +1757,7 @@
                                         </div>
                                     </div>
 
-                                    <h5 class="mt-3"><?php echo $lang["t-social-links"]?></h5>
+                                    <h5 class="mt-3">Social Links</h5>
 
                                     <div class="social-icons">
                                         <a
@@ -1595,7 +1787,7 @@
                         </div>
                     </div>
                 </section>
-                <!-- Contact Form End -->
+                <!-- Content End -->
 
 
 

@@ -1,9 +1,12 @@
+<?php 
+  include "config.php";
+?>
 
 <!DOCTYPE html>
 
 <html class="no-js">
     <head>
-        <title>Alwadi</title>
+        <title><?php  echo $lang["alwadi"]?>  </title>
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta
@@ -17,20 +20,26 @@
         <link rel="stylesheet" href="css/animations.css" />
         <link rel="stylesheet" href="css/font-awesome.css" />
         <link rel="stylesheet" href="css/icomoon.css" />
+        <link rel="stylesheet" href="css/icomoon.css" />
         <link
             rel="stylesheet"
             href="css/main.css"
             class="color-switcher-link"
         />
+        <link
+            rel="stylesheet"
+            href="css/lang.css"
+            class="color-switcher-link"
+        />
         <script src="js/vendor/modernizr-custom.js"></script>
     </head>
 
-    <body>
+    <body >
         <div class="preloader">
             <div class="preloader_image"></div>
         </div>
         <!--topline section visible only on small screens|-->
-        <section class="page_topline ls ms c-my-10">
+        <section class="page_topline ls ms c-my-10 ltr">
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-12 d-flex">
@@ -88,8 +97,7 @@
                                     </li>
                                     <li class="icon-inline">
                                         <span class="meta-item"
-                                            ><i class="ico-pin"></i>Munyonyo -
-                                            Kampala - Uganda</span
+                                            ><i class="ico-pin"></i><?php  echo $lang["h-address"]?>  </span
                                         >
                                     </li>
                                 </ul>
@@ -105,7 +113,7 @@
             <div id="box_wrapper">
                 <!-- template sections -->
                 <!-- header with three Bootstrap columns - left for logo, center for navigation and right for includes-->
-                <header class="page_header ls justify-nav-center">
+                <header class="page_header ls justify-nav-center <?php echo $lang["language"]?>">
                     <div class="container-fluid">
                         <div class="row align-items-center">
                             <div
@@ -123,15 +131,14 @@
                                             <a
                                                 class="nav-link"
                                                 href="index.php"
-                                                >Home</a
+                                                ><?php  echo $lang["t-home"]?>  </a
                                             >
                                         </li>
                                         <li class="nav-item">
                                             <a
                                                 class="nav-link"
                                                 href="about.php"
-                                                >About Us</a
-                                            >
+                                                ><?php  echo $lang["t-about"]?>   </a>
                                         </li>
 
                                         <!-- Services -->
@@ -139,7 +146,7 @@
                                             <a
                                                 class="nav-link"
                                                 href="services.php"
-                                                >Services</a
+                                                ><?php  echo $lang["t-services"]?>  </a
                                             >
                                         </li>
                                         <!-- Contact -->
@@ -148,7 +155,7 @@
                                             <a
                                                 class="nav-link"
                                                 href="contact.php"
-                                                >Contact</a
+                                                ><?php  echo $lang["t-contact"]?> </a
                                             >
                                         </li>
                                         <!-- Blogs -->
@@ -157,25 +164,32 @@
                                             <a
                                                 class="nav-link"
                                                 href="crops.php"
-                                                >Crops</a
+                                                ><?php  echo $lang["t-crops"]?> </a
                                             >
                                         </li>
                                         <li class="nav-item">
                                             <a
                                                 class="nav-link"
                                                 href="blogs.php"
-                                                >Blogs</a
+                                                ><?php  echo $lang["t-blogs"]?> </a
                                             >
+                                        </li>
+                                        <li class="nav-item">
+                                          
                                         </li>
                                     </ul>
                                 </nav>
                                 <!-- eof main nav -->
                             </div>
                             <div
-                                class="col-xl-2 col-lg-7 text-end d-none d-lg-block"
+                                class="col-xl-1 col-lg-7 text-end d-none d-lg-block"
                             >
                                 <ul class="top-includes">
-                                    <li></li>
+                                    <li><div class="langs">
+                                          <a class="arabic nones active" href="index.php?lang=ar" ><img  src="images/ar.svg" alt=""></a>
+                                          <a class="english nones" href="index.php?lang=en" ><img  src="images/en.svg" alt=""></a>
+
+                                          </div></li>
                                 </ul>
                             </div>
                         </div>
@@ -190,3 +204,4 @@
 <img class="whatsapp" src="images/whatsapp.svg" alt="Whatsapp-icon">
 </a>
   </div>
+

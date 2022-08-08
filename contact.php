@@ -5,16 +5,16 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <h1 class="emptytext">Contact Us</h1>
+                                <h1 class="emptytext"><?php echo $lang["t-contact"]?></h1>
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item">
-                                        <a href="./">Home</a>
+                                        <a href="./"><?php echo $lang["t-home"]?></a>
                                     </li>
                                     <li class="breadcrumb-item">
-                                        <a href="#">Pages</a>
+                                        <a href="#"><?php echo $lang["t-pages"]?></a>
                                     </li>
                                     <li class="breadcrumb-item active">
-                                        Contact Us
+                                    <?php echo $lang["t-contact-us"]?>
                                     </li>
                                 </ol>
                             </div>
@@ -22,7 +22,7 @@
                     </div>
                 </section>
 
-                <!-- Content Start -->
+                <!-- Contact Form -->
                 <section class="ls ms s-py-90 s-py-xl-150">
                     <div class="container">
                         <div class="row">
@@ -31,10 +31,11 @@
                                 data-animation="scaleAppear"
                             >
                                 <div class="hero-bg p-30 p-xl-60">
-                                    <h5 for="name">Contact Form</h5>
+                                    <h5 for="name"><?php echo $lang["contact-form"]?></h5>
 
                                     <form
                                         action="https://formsubmit.co/hamza2007ezzat@gmail.com"
+                                        action="https://google.com"
                                         method="POST"
                                     >
                                         <input
@@ -52,31 +53,31 @@
                                         <input
                                             type="text"
                                             name="name"
-                                            placeholder="Name"
+                                            placeholder="<?php echo $lang["name"]?>"
                                             required
                                         />
 
                                         <input
                                             type="email"
                                             name="email"
-                                            placeholder="Email"
+                                            placeholder="<?php echo $lang["email"]?>"
                                             required
                                         />
                                         <label for="message"
-                                            >Your Message</label
+                                            ><?php echo $lang["your-message"]?> </label
                                         >
 
                                         <textarea
                                             name="message"
                                             cols="20"
                                             rows="6"
-                                            placeholder="Your message"
+                                            placeholder=" <?php echo $lang["your-message"]?>"
                                         ></textarea>
                                         <button
                                             type="submit"
                                             class="button btn btn-maincolor btn-block"
                                         >
-                                            Send
+                                        <?php echo $lang["send"]?>
                                         </button>
                                     </form>
                                 </div>
@@ -88,7 +89,7 @@
                                 data-animation="scaleAppear"
                             >
                                 <div class="hero-bg p-30 p-xl-60">
-                                    <h5>Contact Info</h5>
+                                    <h5><?php echo $lang["contact-info"]?></h5>
 
                                     <div class="d-flex media mb-20">
                                         <div class="icon-styled fs-40">
@@ -96,9 +97,9 @@
                                         </div>
 
                                         <div class="media-body">
-                                            <h6>Address:</h6>
+                                            <h6><?php echo $lang["t-address"]?></h6>
                                             <p class="color-darkgrey">
-                                                Munyonyo - Kampala - Uganda
+                                            <?php echo $lang["h-address"]?>
                                             </p>
                                         </div>
                                     </div>
@@ -109,7 +110,7 @@
                                         </div>
 
                                         <div class="media-body">
-                                            <h6>Phone:</h6>
+                                            <h6><?php echo $lang["t-phone"]?>:</h6>
                                             <p>
                                                 <a href="tel:+256779081082"
                                                     >+256 779 081 082</a
@@ -124,7 +125,7 @@
                                         </div>
 
                                         <div class="media-body">
-                                            <h6>Email:</h6>
+                                            <h6><?php echo $lang["t-email"]?>:</h6>
                                             <p>
                                                 <a
                                                     href="mailto:info@alwadi-invest.com"
@@ -134,7 +135,7 @@
                                         </div>
                                     </div>
 
-                                    <h5 class="mt-3">Social Links</h5>
+                                    <h5 class="mt-3"><?php echo $lang["t-social-links"]?></h5>
 
                                     <div class="social-icons">
                                         <a
@@ -164,4 +165,5 @@
                         </div>
                     </div>
                 </section>
+                <!-- Contact Form End -->
                 <?php include 'includes/footer.php' ?>

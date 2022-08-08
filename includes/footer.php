@@ -17,23 +17,22 @@
                                             <h4 class="special-heading mb-2">
                                                 <span>
                                                     <span class="text-white"
-                                                        >Request our
+                                                        ><?php echo $lang["t-request-our"]?>
                                                         <span class="red"
-                                                            >Free</span
+                                                            ><?php echo $lang["t-free"]?></span
                                                         >
-                                                        "Case Studies"
+                                                        <?php echo $lang["t-case-studies"]?>
                                                     </span>
-                                                    <br />Get a free
-                                                    consultancy!
+                                                    <br /><?php echo $lang["t-free-consultancy"]?>
                                                 </span>
                                             </h4>
                                             <p>
-                                                You can contact us through
-                                                phone:
+                                            <?php echo $lang["t-contact-through"]?>
+                                            <?php echo $lang["t-phone"]?>
                                                 <a href="tel:+256779081082"
                                                     >+256 779 081 082</a
                                                 >
-                                                or email:
+                                                <?php echo $lang["t-email"]?>
                                                 <a
                                                     href="mailto:info@alwadi-invest.com"
                                                     >info@alwadi-invest.com</a
@@ -44,7 +43,7 @@
                                             <a
                                                 class="btn btn-white"
                                                 href="contact.php"
-                                                >Contact Us</a
+                                                ><?php echo $lang["t-contact-us"]?></a
                                             >
                                         </div>
                                     </div>
@@ -81,31 +80,31 @@
                                     >
                                         <ul class="menu">
                                             <li>
-                                                <a href="index.php">Home</a>
+                                                <a href="index.php"> <?php echo $lang["t-home"]?></a>
                                             </li>
                                             <li>
                                                 <a href="about.php"
-                                                    >About Us</a
+                                                    ><?php echo $lang["t-about"]?> </a
                                                 >
                                             </li>
                                             <li>
                                                 <a href="services.php"
-                                                    >Services</a
+                                                    ><?php echo $lang["t-services"]?></a
                                                 >
                                             </li>
                                             <li>
                                                 <a href="contact.php"
-                                                    >Contact</a
+                                                    ><?php echo $lang["t-contact"]?></a
                                                 >
                                             </li>
                                             <li>
                                                 <a href="crops.php"
-                                                    >Crops</a
+                                                    ><?php echo $lang["t-crops"]?></a
                                                 >
                                             </li>
                                             <li>
                                                 <a href="blogs.php"
-                                                    >Blogs</a
+                                                    ><?php echo $lang["t-blogs"]?> </a
                                                 >
                                             </li>
                                         </ul>
