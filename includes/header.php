@@ -6,6 +6,15 @@
 
 <html class="no-js">
     <head>
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MVV4YHQDJB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MVV4YHQDJB');
+</script>
         <title><?php  echo $lang["alwadi"]?>  </title>
         <meta charset="utf-8" />
         <meta name="description" content="" />
@@ -34,7 +43,7 @@
         <script src="js/vendor/modernizr-custom.js"></script>
     </head>
 
-    <body >
+    <body class=" <?php echo $lang["font"]?> ">
         <div class="preloader">
             <div class="preloader_image"></div>
         </div>
@@ -120,7 +129,7 @@
                                 class="col-xl-2 col-lg-3 col-11 s-pb-xl-80 px-20"
                             >
                                 <a href="./" class="logo">
-                                    <img src="images/logo.png" alt="img" />
+                                    <img src="images/logo<?php echo $lang["t-lang"]?>.svg" alt="img" />
                                 </a>
                             </div>
                             <div class="col-xl-8 col-1 text-sm-center">
@@ -167,13 +176,13 @@
                                                 ><?php  echo $lang["t-crops"]?> </a
                                             >
                                         </li>
-                                        <li class="nav-item">
+                                        <!-- <li class="nav-item">
                                             <a
                                                 class="nav-link"
                                                 href="blogs.php"
                                                 ><?php  echo $lang["t-blogs"]?> </a
                                             >
-                                        </li>
+                                        </li> -->
                                         <li class="nav-item">
                                           
                                         </li>

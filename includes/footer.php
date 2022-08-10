@@ -54,19 +54,20 @@
                 </section>
                 <!-- Free Consultancy End -->
 
-                <!-- Footer Start -->
-                <section class="footer-wrap">
+                <!-- Footer Start  -->
+                <section class="footer-wrap <?php  echo $lang["language"]?>">
                     <footer
                         class="page_footer ls ms s-py-90 s-py-xl-150 dark-gradient"
                     >
                         <div class="container">
                             <div class="row">
                                 <div
-                                    class="col-md-12 text-center animate"
+                                    class="col-md-12 text-center animate logo-footer"
                                     data-animation="fadeInUp"
                                 >
                                     <img
-                                        src="images/Logo-green.png"
+                                    class=""
+                                        src="images/Logo-green.svg"
                                         alt="img"
                                     />
                                     <div class="divider-40"></div>
@@ -102,11 +103,11 @@
                                                     ><?php echo $lang["t-crops"]?></a
                                                 >
                                             </li>
-                                            <li>
+                                            <!-- <li>
                                                 <a href="blogs.php"
                                                     ><?php echo $lang["t-blogs"]?> </a
                                                 >
-                                            </li>
+                                            </li> -->
                                         </ul>
                                     </div>
                                 </div>

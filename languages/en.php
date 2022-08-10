@@ -3,7 +3,8 @@
     "========== Header,Index,Footer ==========" => "========== ==========", 
     "-------Nav bar------" => "-------------" ,
     "language" =>"ltr",
-
+    "font"=> " ",
+    "t-lang" => "en",
     "alwadi" => "Alwadi",
     "h-address" => "Munyonyo - Kampala - Uganda",
     "t-home"=> "Home",

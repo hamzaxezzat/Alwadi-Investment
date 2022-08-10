@@ -2,7 +2,9 @@
   $lang= array(
     "========== Header,Index,Footer ==========" => "========== ==========", 
     "-------Nav bar------" => "-------------" ,
-"language" =>"rtl",
+    "t-lang" => "ar",
+    "language" =>"rtl",
+    "font"=> "font-cairo",
     "alwadi" => "الوادي",
     "h-address" => "مونيونيو - كمبالا - أوغندا",
     "t-home"=> "الرئيسية",

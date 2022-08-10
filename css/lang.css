@@ -95,3 +95,31 @@ input[type="radio"] + label:before {
 .title-custom span {
     padding: 15px;
 }
+
+.font-cairo,
+.font-cairo span,
+.font-cairo div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cairo", sans-serif !important;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo-footer {
+    width: 100%;
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+.logo-footer img {
+    width: 40%;
+}

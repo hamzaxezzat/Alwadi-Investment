@@ -1234,7 +1234,6 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="card">
                                         <div
                                             class="card-header"
@@ -1250,7 +1249,6 @@
                                                     aria-controls="collapse13"
                                                 >
                                                 <span> <?php echo $lang["q10"]?></span>
-                                                   
                                                 </a>
                                             </h5>
                                         </div>
@@ -1453,7 +1451,7 @@
 
 
                 <!-- Contact Form -->
-                <section class="ls ms s-py-90 s-py-xl-150">
+                <section class="ls ms s-py-90 s-py-xl-150 <?php  echo $lang["language"]?>">
                     <div class="container">
                         <div class="row">
                             <div
@@ -1506,6 +1504,7 @@
                                         <button
                                             type="submit"
                                             class="button btn btn-maincolor btn-block"
+                                            onclick="this.disabled=true;this.value='Submitting...'; this.form.submit();"
                                         >
                                         <?php echo $lang["send"]?>
                                         </button>

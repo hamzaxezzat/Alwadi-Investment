@@ -96,7 +96,7 @@
                                             >
                                                 <span
                                                     class="emptytext"
-                                                    data-content="Avocad"
+                                                    data-content="<?php echo $lang["product-1"]?> "
                                                     ><?php echo $lang["product-1"]?> </span
                                                 >
                                             </h3>
@@ -132,7 +132,7 @@
                                             >
                                                 <span
                                                     class="emptytext"
-                                                    data-content="coffee"
+                                                    data-content="<?php echo $lang["product-2"]?> "
                                                     ><?php echo $lang["product-2"]?> </span
                                                 >
                                             </h3>
@@ -167,7 +167,7 @@
                                                 class="mt-2 mb-0 text-uppercase"
                                             >
                                                 <span
-                                                    data-content="Soya"
+                                                    data-content="<?php echo $lang["product-3"]?> "
                                                     class="emptytext"
                                                     ><?php echo $lang["product-3"]?> </span
                                                 >
@@ -203,9 +203,9 @@
                                                 class="mt-2 mb-0 text-uppercase"
                                             >
                                                 <span
-                                                    data-content="Corn"
+                                                    data-content="<?php echo $lang["product-4"]?> "
                                                     class="emptytext"
-                                                    ><?php echo $lang[" product-4"]?> </span
+                                                    ><?php echo $lang["product-4"]?> </span
                                                 >
                                             </h3>
                                             <h5 class="mt-1">
@@ -221,7 +221,7 @@
                     </div>
                 </section>
 
-                <section class="ls s-py-90 s-py-xl-150 about-2 leaf-wrap">
+                <section class="ls s-py-90 s-py-xl-150 about-2 leaf-wrap <?php  echo $lang["language"]?>">
                     <div
                         class="leaf leaf-top animate"
                         data-animation="fadeInDown"
@@ -341,7 +341,7 @@
                     <div class="container">
                         <div class="row">
                             <h2 class="heading">
-                                <span><?php echo $lang["i-steps-title-1"]?> <br /> <?php echo $lang[" i-steps-title-2"]?></span>
+                                <span><?php echo $lang["i-steps-title-1"]?> <br /> <?php echo $lang["i-steps-title-2"]?></span>
                             </h2>
                             <div class="divider-50 divider-xl-60"></div>
                             <div class="col-xl-4 col-lg-6">

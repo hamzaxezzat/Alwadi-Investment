@@ -23,7 +23,7 @@
                 </section>
 
                 <!-- Contact Form -->
-                <section class="ls ms s-py-90 s-py-xl-150">
+                <section class="ls ms s-py-90 s-py-xl-150 <?php  echo $lang["language"]?>">
                     <div class="container">
                         <div class="row">
                             <div
