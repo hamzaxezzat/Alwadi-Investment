@@ -396,6 +396,9 @@
     "post-title-8" => "Influence of Environmental Conditions in NPA",
     "post-title-9" => "New public attitude tracker towards renewable energy",
 
+    "========== Signle Blog ==========",
+    "blog-1-title"=> "Blog Title",
+
   );
 
 ?>
